@@ -34,7 +34,7 @@ hi Folded           guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 
 hi FoldColumn       guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi SignColumn       guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi IncSearch        guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
-hi LineNr           guisp=NONE guifg=#4e4e4e guibg=384545  ctermfg=239 ctermbg=235 gui=NONE cterm=NONE
+hi LineNr           guisp=NONE guifg=#4e4e4e guibg=NONE ctermfg=239 ctermbg=235 gui=NONE cterm=NONE
 hi LineNrAbove      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi LineNrBelow      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi CursorLineNr     guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
@@ -89,7 +89,7 @@ hi String         guisp=NONE guifg=#697258 guibg=NONE ctermfg=101 ctermbg=234 gu
 hi Character      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi Number         guisp=NONE guifg=#86f7a2 guibg=NONE ctermfg=121 ctermbg=234 gui=NONE cterm=NONE
 hi Boolean        guisp=NONE guifg=#afd75f guibg=NONE ctermfg=149 ctermbg=234 gui=NONE cterm=NONE
-hi Float          guisp=NONE guifg=#0087d7 guibg=1F2225  ctermfg=32  ctermbg=235 gui=NONE cterm=NONE
+hi Float          guisp=NONE guifg=#0087d7 guibg=NONE ctermfg=32  ctermbg=235 gui=NONE cterm=NONE
 hi Function       guisp=NONE guifg=#849AB4 guibg=NONE ctermfg=103 ctermbg=234 gui=NONE cterm=NONE
 hi Conditional    guisp=NONE guifg=#5E727F guibg=NONE ctermfg=67  ctermbg=234 gui=NONE cterm=NONE
 hi Repeat         guisp=NONE guifg=#006080 guibg=NONE ctermfg=32  ctermbg=234 gui=NONE cterm=NONE
