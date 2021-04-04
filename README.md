@@ -20,3 +20,76 @@ colorscheme xxxx      " pick the color theme you like
 ```
 
 !TODO:❌ Screenshots!
+# Screenshots
+
+## vim breakingbad
+![breakingbad](https://i.imgur.com/rloXtV6.png)
+
+```VimL
+set background=dark
+set termguicolors
+colorscheme breakingbad 
+```
+
+## vim cody
+![cody](https://i.imgur.com/ubvYrsl.png)
+
+```VimL
+set background=dark
+set termguicolors
+colorscheme cody
+```
+
+## vim cold
+![cold](https://i.imgur.com/RqxJiJA.png)
+
+```VimL
+set background=dark
+set termguicolors
+colorscheme cold
+```
+
+## vim matrix
+![matrix](https://i.imgur.com/KUufucp.png)
+
+```VimL
+set background=dark
+set termguicolors
+colorscheme matrix
+```
+
+## vim neonhive
+![neonhive](https://i.imgur.com/1p1gG8p.png)
+
+```VimL
+set background=dark
+set termguicolors
+colorscheme neonhive
+```
+
+## vim nordic-aurora (TODO🆘: Need a wallpaper)
+![nordic-aurora](https://i.imgur.com/q305nZB.png)
+
+```VimL
+set background=dark
+set termguicolors
+colorscheme nordic-aurora
+```
+
+## vim superman
+![superman](https://i.imgur.com/PeuTMmW.png)
+
+```VimL
+set background=dark
+set termguicolors
+colorscheme superman
+```
+
+## vim topology
+![topology](https://i.imgur.com/uCXxfUp.png)
+
+```VimL
+set background=dark
+set termguicolors
+colorscheme topology
+```
