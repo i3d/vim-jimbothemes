@@ -10,5 +10,13 @@ Theme nordic-aurora was inspired from [ImageGoNord](https://github.com/Schroding
 
 I have not yet found a suitable wallpapers for this theme.
 
+# Installation
+```VimL
+Plug 'i3d/vim-jimbothemes' " or any other package manager
+"...
+set background=dark   " all jimbothemes are dark background themes
+set termguicolors     " enable true colors support. !Required!
+colorscheme xxxx      " pick the color theme you like
+```
 
 !TODO:❌ Screenshots!
