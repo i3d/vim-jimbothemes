@@ -91,7 +91,7 @@ hi String         guisp=NONE guifg=#a3be8c guibg=#NONE ctermfg=101 ctermbg=234 g
 hi Character      guisp=NONE guifg=#8fbcbb guibg=#NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi Number         guisp=NONE guifg=#ebcb8b guibg=#NONE ctermfg=121 ctermbg=234 gui=NONE cterm=NONE
 hi Boolean        guisp=NONE guifg=#ebcb8b guibg=#NONE ctermfg=149 ctermbg=234 gui=NONE cterm=NONE
-hi Float          guisp=NONE guifg=#ebcb8b guibg=1F2225  ctermfg=32  ctermbg=235 gui=NONE cterm=NONE
+hi Float          guisp=NONE guifg=#ebcb8b guibg=#1F2225  ctermfg=32  ctermbg=235 gui=NONE cterm=NONE
 hi Function       guisp=NONE guifg=#5e81ac guibg=#NONE ctermfg=103 ctermbg=234 gui=NONE cterm=NONE
 hi Conditional    guisp=NONE guifg=#5e81ac guibg=#NONE ctermfg=67  ctermbg=234 gui=NONE cterm=NONE
 hi Repeat         guisp=NONE guifg=#5e81ac guibg=#NONE ctermfg=32  ctermbg=234 gui=NONE cterm=NONE

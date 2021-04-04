@@ -71,12 +71,7 @@ hi WildMenu         guisp=NONE guifg=#384545 guibg=#NONE ctermfg=231 ctermbg=234
 
 " major
 
-"hi Normal    guisp=NONE guifg=#478A91 guibg=#0F1818 ctermfg=145 ctermbg=235  gui=NONE   cterm=NONE
-"hi Normal    guisp=NONE guifg=#478A91 guibg=#09080A ctermfg=145 ctermbg=235  gui=NONE   cterm=NONE
 hi Normal     guisp=NONE guifg=#A9A9A9 guibg=#1D1D1D ctermfg=145 ctermbg=235  gui=NONE cterm=NONE
-" italic enabled on fonts that do not support italic would render vim to have a
-" gray background on comments.
-"hi Comment    guisp=NONE guifg=#555354 guibg=#1D1D1D ctermfg=238 ctermbg=NONE gui=italic cterm=NONE
 hi Comment    guisp=NONE guifg=#555354 guibg=#1D1D1D ctermfg=238 ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#81ADAE guibg=#NONE ctermfg=185 ctermbg=234  gui=NONE   cterm=NONE
 hi Identifier guisp=NONE guifg=#F1EFF0 guibg=#NONE ctermfg=143 ctermbg=234  gui=NONE   cterm=NONE

@@ -110,4 +110,3 @@ hi Tag            guisp=NONE guifg=#384545 guibg=#NONE ctermfg=231 ctermbg=234 g
 hi Delimiter      guisp=NONE guifg=#816C00 guibg=#NONE ctermfg=220 ctermbg=234 gui=NONE cterm=NONE
 hi SpecialComment guisp=NONE guifg=#6F8038 guibg=#NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi Debug          guisp=NONE guifg=#6F8038 guibg=#NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
-
