@@ -8,6 +8,8 @@ I don't know the original authors of these wallpapers but the inspiration credit
 
 Theme nordic-aurora was inspired from [ImageGoNord](https://github.com/Schrodinger-Hat/ImageGoNord). Color palette was strictly followed the guideline there. Credits go to them. I have not yet found a suitable wallpaper for this theme.
 
+All theme wallpapers are under the wallpapers subdir. The nordic-aurora wallpaper credit goes to [here](https://www.reddit.com/r/nordtheme/comments/f1dyk2/made_this_wallpaper_from_a_graphic_on_nords/)
+
 # Installation
 ```VimL
 Plug 'i3d/vim-jimbothemes' " or any other package manager
@@ -69,7 +71,7 @@ set termguicolors
 colorscheme neonhive
 ```
 
-## vim nordic-aurora (TODO🆘: Need a wallpaper)
+## vim nordic-aurora 
 ![nordic-aurora](https://i.imgur.com/q305nZB.png)
 
 ```VimL
