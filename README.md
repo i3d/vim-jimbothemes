@@ -17,6 +17,11 @@ set termguicolors     " enable true colors support. !Required!
 colorscheme xxxx      " pick the color theme you like
 ```
 
+# Update
+```VimL
+:PlugUpdate vim-jimbothemes
+```
+
 # Screenshots
 
 ## vim breakingbad
