@@ -26,6 +26,15 @@ colorscheme xxxx      " pick the color theme you like
 
 # Screenshots
 
+## vim ironman dark 
+![ironman_dark](https://i.imgur.com/v5kJhUg.png)
+
+```VimL
+set background=dark
+set termguicolors
+colorscheme ironman_dark
+```
+
 ## vim batman
 ### The batman theme is designed with the color palette from the wallper and also the batman iterm color scheme.
 ![batman](https://i.imgur.com/rapKJYC.png)
