@@ -46,7 +46,7 @@ hi Cursor           guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 
 hi lCursor          guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi CursorIM         guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi CursorColumn     guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
-hi CursorLine       guisp=NONE guifg=NONE  guibg=#212727 ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
+hi CursorLine       guisp=NONE guifg=NONE  guibg=#2B3333 ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi Directory        guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi DiffAdd          guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi DiffChange       guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
@@ -59,10 +59,10 @@ hi Folded           guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 
 hi FoldColumn       guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi SignColumn       guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi IncSearch        guisp=NONE guifg=#A6641A guibg=#8BA654 ctermfg=231 ctermbg=234 gui=NONE cterm=bold
-hi LineNr           guisp=NONE guifg=#4e4e4e guibg=NONE ctermfg=239 ctermbg=235 gui=NONE cterm=bold
+hi LineNr           guisp=NONE guifg=#333333 guibg=NONE ctermfg=239 ctermbg=235 gui=NONE cterm=bold
 hi LineNrAbove      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi LineNrBelow      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
-hi CursorLineNr     guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=bold
+hi CursorLineNr     guisp=NONE guifg=#839BB3 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=bold
 hi MatchParen       guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=bold
 hi ModeMsg          guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi MoreMsg          guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
@@ -95,7 +95,7 @@ hi WildMenu         guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 
 
 " major
 
-hi Normal     guisp=NONE guifg=#6A6641 guibg=#1F2020 ctermfg=145 ctermbg=235  gui=NONE   cterm=NONE
+hi Normal     guisp=NONE guifg=#807979 guibg=#1F2020 ctermfg=145 ctermbg=235  gui=NONE   cterm=NONE
 hi Comment    guisp=NONE guifg=#484C4B guibg=NONE    ctermfg=238 ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#e6d15a guibg=NONE ctermfg=185 ctermbg=234  gui=NONE   cterm=bold
 hi Identifier guisp=NONE guifg=#80804B guibg=NONE ctermfg=143 ctermbg=234  gui=NONE   cterm=bold
@@ -120,7 +120,7 @@ hi Conditional    guisp=NONE guifg=#5E727F guibg=NONE ctermfg=67  ctermbg=234 gu
 hi Repeat         guisp=NONE guifg=#006080 guibg=NONE ctermfg=32  ctermbg=234 gui=NONE cterm=NONE
 hi Label          guisp=NONE guifg=#006080 guibg=NONE ctermfg=32  ctermbg=234 gui=NONE cterm=bold
 hi Operator       guisp=NONE guifg=#4F7E7E guibg=NONE ctermfg=116 ctermbg=234 gui=NONE cterm=bold
-hi Keyword        guisp=NONE guifg=#2C6680 guibg=NONE ctermfg=67  ctermbg=234 gui=NONE cterm=bold
+hi Keyword        guisp=NONE guifg=#649498 guibg=NONE ctermfg=67  ctermbg=234 gui=NONE cterm=bold
 hi Exception      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi Include        guisp=NONE guifg=#678C61 guibg=NONE ctermfg=65  ctermbg=234 gui=NONE cterm=NONE
 hi Define         guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
