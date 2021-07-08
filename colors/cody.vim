@@ -31,6 +31,10 @@ set t_Co=256
 "Label
 "Macro
 "Structure
+"PreProc
+"Function
+"Keyword
+"Operator
 
 
 " misc
@@ -95,7 +99,7 @@ hi Comment    guisp=NONE guifg=#4D5559 guibg=NONE   ctermfg=238 ctermbg=NONE gui
 hi Constant   guisp=NONE guifg=#e6d15a guibg=NONE ctermfg=185 ctermbg=234  gui=NONE   cterm=bold
 hi Identifier guisp=NONE guifg=#485164 guibg=NONE ctermfg=143 ctermbg=234  gui=NONE   cterm=bold
 hi Statement  guisp=NONE guifg=#565C46 guibg=NONE ctermfg=65  ctermbg=234  gui=NONE   cterm=NONE
-hi PreProc    guisp=NONE guifg=#5E7781 guibg=NONE ctermfg=240 ctermbg=234  gui=NONE   cterm=NONE
+hi PreProc    guisp=NONE guifg=#5E7781 guibg=NONE ctermfg=240 ctermbg=234  gui=NONE   cterm=bold
 hi Type       guisp=NONE guifg=#576180 guibg=NONE ctermfg=215 ctermbg=234  gui=NONE   cterm=bold
 hi Special    guisp=NONE guifg=#477340 guibg=NONE ctermfg=174 ctermbg=234  gui=NONE   cterm=bold
 hi Underlined guisp=NONE guifg=#348B4A guibg=NONE ctermfg=84  ctermbg=234  gui=NONE   cterm=NONE
@@ -110,12 +114,12 @@ hi Character      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gu
 hi Number         guisp=NONE guifg=#AFD75F guibg=NONE ctermfg=121 ctermbg=234 gui=NONE cterm=bold
 hi Boolean        guisp=NONE guifg=#AFD75F guibg=NONE ctermfg=149 ctermbg=234 gui=NONE cterm=bold
 hi Float          guisp=NONE guifg=#0087d7 guibg=NONE ctermfg=32  ctermbg=235 gui=NONE cterm=bold
-hi Function       guisp=NONE guifg=#84A6B4 guibg=NONE ctermfg=103 ctermbg=234 gui=NONE cterm=NONE
+hi Function       guisp=NONE guifg=#84A6B4 guibg=NONE ctermfg=103 ctermbg=234 gui=NONE cterm=bold
 hi Conditional    guisp=NONE guifg=#5E727F guibg=NONE ctermfg=67  ctermbg=234 gui=NONE cterm=NONE
 hi Repeat         guisp=NONE guifg=#006080 guibg=NONE ctermfg=32  ctermbg=234 gui=NONE cterm=NONE
 hi Label          guisp=NONE guifg=#006080 guibg=NONE ctermfg=32  ctermbg=234 gui=NONE cterm=bold
-hi Operator       guisp=NONE guifg=#4F7E7E guibg=NONE ctermfg=116 ctermbg=234 gui=NONE cterm=NONE
-hi Keyword        guisp=NONE guifg=#2C6680 guibg=NONE ctermfg=67  ctermbg=234 gui=NONE cterm=NONE
+hi Operator       guisp=NONE guifg=#4F7E7E guibg=NONE ctermfg=116 ctermbg=234 gui=NONE cterm=bold
+hi Keyword        guisp=NONE guifg=#2C6680 guibg=NONE ctermfg=67  ctermbg=234 gui=NONE cterm=bold
 hi Exception      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi Include        guisp=NONE guifg=#678C61 guibg=NONE ctermfg=65  ctermbg=234 gui=NONE cterm=NONE
 hi Define         guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE

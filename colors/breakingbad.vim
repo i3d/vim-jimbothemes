@@ -31,6 +31,10 @@ set t_Co=256
 "Label
 "Macro
 "Structure
+"PreProc
+"Function
+"Keyword
+"Operator
 
 
 " misc
@@ -95,7 +99,7 @@ hi Comment    guisp=NONE guifg=#555354 guibg=#1D1D1D ctermfg=238 ctermbg=NONE gu
 hi Constant   guisp=NONE guifg=#81ADAE guibg=NONE ctermfg=185 ctermbg=234  gui=NONE   cterm=bold
 hi Identifier guisp=NONE guifg=#F1EFF0 guibg=NONE ctermfg=143 ctermbg=234  gui=NONE   cterm=bold
 hi Statement  guisp=NONE guifg=#9F9A6E guibg=NONE ctermfg=65  ctermbg=234  gui=NONE   cterm=NONE
-hi PreProc    guisp=NONE guifg=#7C7557 guibg=NONE ctermfg=240 ctermbg=234  gui=NONE   cterm=NONE
+hi PreProc    guisp=NONE guifg=#7C7557 guibg=NONE ctermfg=240 ctermbg=234  gui=NONE   cterm=bold
 hi Type       guisp=NONE guifg=#CEB874 guibg=NONE ctermfg=215 ctermbg=234  gui=NONE   cterm=bold
 hi Special    guisp=NONE guifg=#6D683C guibg=NONE ctermfg=174 ctermbg=234  gui=NONE   cterm=bold
 hi Underlined guisp=NONE guifg=#424444 guibg=NONE ctermfg=84  ctermbg=234  gui=NONE   cterm=NONE
@@ -114,8 +118,8 @@ hi Function       guisp=NONE guifg=#4B7F4C guibg=NONE ctermfg=103 ctermbg=234 gu
 hi Conditional    guisp=NONE guifg=#305636 guibg=NONE ctermfg=67  ctermbg=234 gui=NONE cterm=NONE
 hi Repeat         guisp=NONE guifg=#305636 guibg=NONE ctermfg=32  ctermbg=234 gui=NONE cterm=NONE
 hi Label          guisp=NONE guifg=#305636 guibg=NONE ctermfg=32  ctermbg=234 gui=NONE cterm=bold
-hi Operator       guisp=NONE guifg=#81672B guibg=NONE ctermfg=116 ctermbg=234 gui=NONE cterm=NONE
-hi Keyword        guisp=NONE guifg=#B2880E guibg=NONE ctermfg=67  ctermbg=234 gui=NONE cterm=NONE
+hi Operator       guisp=NONE guifg=#81672B guibg=NONE ctermfg=116 ctermbg=234 gui=NONE cterm=bold
+hi Keyword        guisp=NONE guifg=#B2880E guibg=NONE ctermfg=67  ctermbg=234 gui=NONE cterm=bold
 hi Exception      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi Include        guisp=NONE guifg=#678C61 guibg=NONE ctermfg=65  ctermbg=234 gui=NONE cterm=NONE
 hi Define         guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
