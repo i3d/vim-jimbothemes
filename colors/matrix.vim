@@ -13,6 +13,25 @@ endif
 let g:colors_name='matrix'
 set t_Co=256
 
+" bolding policy
+"LineNr
+"CursorLineNr
+"MatchParen
+"IncSearch
+"Search
+"Constant
+"Identifier
+"Type
+"Special
+"Todo
+"Character
+"Number
+"Boolean
+"Float
+"Label
+"Macro
+"Structure
+
 " misc
 
 hi ColorColumn      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
@@ -33,7 +52,7 @@ hi VertSplit        guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 
 hi Folded           guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi FoldColumn       guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi SignColumn       guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
-hi IncSearch        guisp=NONE guifg=#000000 guibg=#2C7D54 ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
+hi IncSearch        guisp=NONE guifg=#000000 guibg=#2C7D54 ctermfg=231 ctermbg=234 gui=NONE cterm=bold
 hi LineNr           guisp=NONE guifg=#043819 guibg=NONE ctermfg=239 ctermbg=235 gui=NONE cterm=bold
 hi LineNrAbove      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi LineNrBelow      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
@@ -63,7 +82,7 @@ hi TabLineFill      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 
 hi TabLineSel       guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi Terminal         guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi Title            guisp=NONE guifg=#ffd700 guibg=NONE ctermfg=220 ctermbg=234 gui=NONE cterm=NONE
-hi Visual           guisp=NONE guifg=NONE guibg=#1B2A23 ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
+hi Visual           guisp=NONE guifg=NONE guibg=#0E1612 ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi VisualNOS        guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi WarningMsg       guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi WildMenu         guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
