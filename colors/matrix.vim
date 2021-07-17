@@ -103,7 +103,7 @@ hi Type       guisp=NONE guifg=#89BE2E guibg=NONE ctermfg=215 ctermbg=234  gui=N
 hi Special    guisp=NONE guifg=#477340 guibg=NONE ctermfg=174 ctermbg=234  gui=NONE   cterm=bold
 hi Underlined guisp=NONE guifg=#348B4A guibg=NONE ctermfg=84  ctermbg=234  gui=NONE   cterm=NONE
 hi Ignore     guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234  gui=NONE   cterm=NONE
-hi Error      guisp=NONE guifg=#8D0FE4 guibg=NONE ctermfg=131 ctermbg=234  gui=NONE   cterm=NONE
+hi Error      guisp=NONE guifg=#C1FF8A guibg=NONE ctermfg=131 ctermbg=234  gui=NONE   cterm=NONE
 hi Todo       guisp=NONE guifg=#DCFF00 guibg=NONE ctermfg=168 ctermbg=234  gui=NONE   cterm=bold
 
 " minor
