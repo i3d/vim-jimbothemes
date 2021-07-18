@@ -61,7 +61,8 @@ hi LineNr           guisp=NONE guifg=#043819 guibg=NONE ctermfg=239 ctermbg=235 
 hi LineNrAbove      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi LineNrBelow      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi CursorLineNr     guisp=NONE guifg=#84CA0B guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=bold
-hi MatchParen       guisp=NONE guifg=#9CE667 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=bold
+"hi MatchParen       guisp=NONE guifg=#9CE667 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=bold
+hi MatchParen       guisp=NONE guifg=#10FA4B guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=bold
 hi ModeMsg          guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi MoreMsg          guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi NonText          guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
@@ -161,7 +162,8 @@ hi TSNone               guisp=NONE guifg=#FAFF00 guibg=NONE ctermfg=231 ctermbg=
 hi TSParameter          guisp=NONE guifg=#D2F990 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi TSParameterReference guisp=NONE guifg=#7DF9A3 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi TSPunctDelimiter     guisp=NONE guifg=#FAFF00 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
-hi TSPunctBracket       guisp=NONE guifg=#FFAF00 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
+" bracket FFAF00
+hi TSPunctBracket       guisp=NONE guifg=#B37B00 guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE  
 hi TSPunctSpecial       guisp=NONE guifg=#644A7F guibg=NONE ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
 hi TSStringRegex        guisp=NONE guifg=#644A7F guibg=NONE ctermfg=101 ctermbg=234 gui=NONE cterm=NONE
 hi TSStringEscape       guisp=NONE guifg=#644A7F guibg=NONE ctermfg=101 ctermbg=234 gui=NONE cterm=NONE
