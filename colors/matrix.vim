@@ -13,6 +13,24 @@ endif
 let g:colors_name='matrix'
 set t_Co=256
 
+" Theme principles
+" Contrast enough but not too much.
+"   Normal text don't contrast too much as it is 90% of the body.
+"   Too much contrast would hurt eyes.
+"   Important objects should be higher contrast such as Type, Identifiers,
+"   etc. These aren't many but very important in almost every language.
+" Operators should use some relatively low contrast but different color
+" palettes, to differentiate them.
+" Same or related type objects should use close color palettes. e.g.
+" all Numeric types, different Macros, etc...
+" Rare type objects, such as storage class, constant, etc should use some
+" different color palettes, to differentiate them.
+" Strong, emphersize, symbols, etc should typically have more vivic color
+" palettes than their counterparts, to differentiate their importance level.
+" The whole theme taste should state consistent, either cool color dominates
+" or warm color dominates. It should obvious to tell there is a distinguishable
+" theme there, instead of just "colorful".
+
 " bolding policy
 "LineNr
 "CursorLineNr
