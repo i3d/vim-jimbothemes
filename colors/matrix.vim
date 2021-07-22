@@ -160,7 +160,7 @@ hi TSAnnotation         guisp=NONE guifg=#4C5249 guibg=NONE    ctermfg=238 cterm
 hi TSNode               guisp=NONE guifg=#23755A guibg=#101B1F ctermfg=145 ctermbg=235  gui=NONE   cterm=NONE
 hi TSTypeBuiltin        guisp=NONE guifg=#409931 guibg=NONE ctermfg=215 ctermbg=234  gui=NONE   cterm=bold
 " #[] as well.
-hi TSVariable           guisp=NONE guifg=#3F6141 guibg=NONE ctermfg=215 ctermbg=234  gui=NONE   cterm=bold
+hi TSVariable           guisp=NONE guifg=#426644 guibg=NONE ctermfg=215 ctermbg=234  gui=NONE   cterm=bold
 hi TSVariableBuiltin    guisp=NONE guifg=#456C48 guibg=NONE ctermfg=215 ctermbg=234  gui=NONE   cterm=bold
 hi TSRepeat             guisp=NONE guifg=#81B32C guibg=NONE ctermfg=32  ctermbg=234 gui=NONE cterm=NONE
 hi TSConstant           guisp=NONE guifg=#FAFF00 guibg=NONE ctermfg=141 ctermbg=234 gui=NONE cterm=NONE
