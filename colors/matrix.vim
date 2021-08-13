@@ -136,10 +136,10 @@ hi Character      guisp=NONE guifg=#83F558 guibg=NONE ctermfg=13 ctermbg=233 gui
 hi Number         guisp=NONE guifg=#11FF25 guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=bold
 hi Boolean        guisp=NONE guifg=#11FF25 guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=bold
 hi Float          guisp=NONE guifg=#11FF25 guibg=NONE ctermfg=13  ctermbg=235 gui=NONE cterm=bold
-hi Function       guisp=NONE guifg=#28A475 guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=bold
-hi Conditional    guisp=NONE guifg=#81B32C guibg=NONE ctermfg=15  ctermbg=233 gui=NONE cterm=NONE
-hi Repeat         guisp=NONE guifg=#81B32C guibg=NONE ctermfg=15  ctermbg=233 gui=NONE cterm=NONE
-hi Label          guisp=NONE guifg=#81B32C guibg=NONE ctermfg=15  ctermbg=233 gui=NONE cterm=bold
+hi Function       guisp=NONE guifg=#28A475 guibg=NONE ctermfg=15 ctermbg=233 gui=NONE cterm=bold
+hi Conditional    guisp=NONE guifg=#81B32C guibg=NONE ctermfg=22  ctermbg=233 gui=NONE cterm=NONE
+hi Repeat         guisp=NONE guifg=#81B32C guibg=NONE ctermfg=22  ctermbg=233 gui=NONE cterm=NONE
+hi Label          guisp=NONE guifg=#81B32C guibg=NONE ctermfg=22  ctermbg=233 gui=NONE cterm=bold
 hi Operator       guisp=NONE guifg=#644A7F guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=bold
 hi Keyword        guisp=NONE guifg=#688060 guibg=NONE ctermfg=28  ctermbg=233 gui=NONE cterm=bold
 "hi Keyword        guisp=NONE guifg=#644A7F guibg=NONE ctermfg=67  ctermbg=233 gui=NONE cterm=bold
@@ -164,8 +164,8 @@ hi TSAnnotation         guisp=NONE guifg=#4C5249 guibg=NONE    ctermfg=4 ctermbg
 hi TSNode               guisp=NONE guifg=#23755A guibg=#101A1E ctermfg=15 ctermbg=235  gui=NONE   cterm=NONE
 hi TSTypeBuiltin        guisp=NONE guifg=#409931 guibg=NONE ctermfg=9 ctermbg=233  gui=NONE   cterm=bold
 " #[] as well.
-hi TSVariable           guisp=NONE guifg=#426644 guibg=NONE ctermfg=28 ctermbg=NONE gui=NONE   cterm=bold
-hi TSVariableBuiltin    guisp=NONE guifg=#456C48 guibg=NONE ctermfg=28 ctermbg=NONE gui=NONE   cterm=bold
+hi TSVariable           guisp=NONE guifg=#426644 guibg=NONE ctermfg=10 ctermbg=NONE gui=NONE   cterm=bold
+hi TSVariableBuiltin    guisp=NONE guifg=#456C48 guibg=NONE ctermfg=10 ctermbg=NONE gui=NONE   cterm=bold
 hi TSRepeat             guisp=NONE guifg=#81B32C guibg=NONE ctermfg=6 ctermbg=233 gui=NONE cterm=NONE
 hi TSConstant           guisp=NONE guifg=#FAFF00 guibg=NONE ctermfg=3 ctermbg=233 gui=NONE cterm=NONE
 hi TSConstMacro         guisp=NONE guifg=#409931 guibg=NONE ctermfg=9 ctermbg=233 gui=NONE cterm=NONE
@@ -181,7 +181,7 @@ hi TSKeywordOperator    guisp=NONE guifg=#00FF00 guibg=NONE ctermfg=118 ctermbg=
 hi TSKeywordFunction    guisp=NONE guifg=#00FF00 guibg=NONE ctermfg=118 ctermbg=233 gui=NONE cterm=NONE
 "hi TSMethod             guisp=NONE guifg=#B0FF57 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 " TSMethod 36DA9B
-hi TSMethod             guisp=NONE guifg=#347358 guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
+hi TSMethod             guisp=NONE guifg=#347358 guibg=NONE ctermfg=15 ctermbg=233 gui=NONE cterm=NONE
 hi TSNamespace          guisp=NONE guifg=#348B4A guibg=NONE ctermfg=9 ctermbg=233 gui=NONE cterm=NONE
 hi TSNone               guisp=NONE guifg=#FAFF00 guibg=NONE ctermfg=3 ctermbg=233 gui=NONE cterm=NONE
 hi TSParameter          guisp=NONE guifg=#B7D97D guibg=NONE ctermfg=100 ctermbg=233 gui=NONE cterm=NONE
