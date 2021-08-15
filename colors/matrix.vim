@@ -89,7 +89,7 @@ hi ModeMsg          guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=233 
 hi MoreMsg          guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi NonText          guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Pmenu            guisp=NONE guifg=#608E3F guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi PmenuSel         guisp=NONE guifg=#608E3F guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
+hi PmenuSel         guisp=NONE guifg=#608E3F guibg=#18282e ctermfg=231 ctermbg=235 gui=NONE cterm=NONE
 hi PmenuSbar        guisp=NONE guifg=#608E3F guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi PmenuThumb       guisp=NONE guifg=#608E3F guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Question         guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
