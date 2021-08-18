@@ -117,6 +117,7 @@ hi WildMenu         guisp=NONE guifg=#00FF87 guibg=NONE ctermfg=13 ctermbg=233 g
 " major
 
 " hi Normal     guisp=NONE guifg=#23755A guibg=#101A1E ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
+" darker background candidate = #091013, this would match the darker matrix term theme.
 hi Normal     guisp=NONE guifg=#23755A guibg=#0F191C ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
 hi Comment    guisp=NONE guifg=#334740 guibg=#101A1E ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#644A7F guibg=NONE ctermfg=55 ctermbg=NONE gui=NONE   cterm=bold
