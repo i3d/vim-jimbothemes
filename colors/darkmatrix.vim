@@ -1,6 +1,8 @@
 
 """
-" Name: matrix
+" Name: darkmatrix
+"
+" A matrix theme that fits the darker matrix term theme.
 """
 
 set background=dark
@@ -10,7 +12,7 @@ if exists('syntax_on')
 	syntax reset
 endif
 
-let g:colors_name='matrix'
+let g:colors_name='darkmatrix'
 set t_Co=256
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
@@ -116,8 +118,8 @@ hi WildMenu         guisp=NONE guifg=#00FF87 guibg=NONE ctermfg=13 ctermbg=233 g
 
 " major
 
-hi Normal     guisp=NONE guifg=#23755A guibg=#0F191C ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
-hi Comment    guisp=NONE guifg=#334740 guibg=#101A1E ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
+hi Normal     guisp=NONE guifg=#23755A guibg=#091013 ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
+hi Comment    guisp=NONE guifg=#334740 guibg=#0C1519 ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#644A7F guibg=NONE ctermfg=55 ctermbg=NONE gui=NONE   cterm=bold
 hi Identifier guisp=NONE guifg=#2FC079 guibg=NONE ctermfg=22 ctermbg=NONE  gui=NONE   cterm=bold
 hi Statement  guisp=NONE guifg=#2FC079 guibg=NONE ctermfg=22  ctermbg=NONE  gui=NONE   cterm=NONE
