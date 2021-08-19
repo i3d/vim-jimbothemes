@@ -27,11 +27,13 @@ colorscheme xxxx      " pick the color theme you like
 :PlugUpdate vim-jimbothemes
 ```
 
+!NOTE: Themes are still actively developing and improving, so update often.
+
 # Screenshots
 
 ## ironman_dark
 
-![ironman_dark](https://i.imgur.com/v5kJhUg.png)
+![ironman_dark](screenshots/ironman_dark.png)
 
 ```VimL
 set background=dark
@@ -43,7 +45,7 @@ colorscheme ironman_dark
 
 ### The batman theme is designed with the color palette from the wallper and also the batman iterm color scheme.
 
-![batman](https://i.imgur.com/rapKJYC.png)
+![batman](screenshots/batman.png)
 
 ```VimL
 set background=dark
@@ -53,7 +55,7 @@ colorscheme batman
 
 ## breakingbad
 
-![breakingbad](https://i.imgur.com/rloXtV6.png)
+![breakingbad](screenshots/breakingbad.png)
 
 ```VimL
 set background=dark
@@ -63,7 +65,7 @@ colorscheme breakingbad
 
 ## vim cody
 
-![cody](https://i.imgur.com/ubvYrsl.png)
+![cody](screenshots/cody.png)
 
 ```VimL
 set background=dark
@@ -73,7 +75,7 @@ colorscheme cody
 
 ## cold
 
-![cold](https://i.imgur.com/RqxJiJA.png)
+![cold](screenshots/cold.png)
 
 ```VimL
 set background=dark
@@ -83,7 +85,7 @@ colorscheme cold
 
 ## matrix (**this theme is what I am currently using and it is highly tweaked**)
 
-![matrix](https://i.imgur.com/KUufucp.png)
+![matrix](screenshots/matrix.png)
 
 ```VimL
 set background=dark
@@ -94,9 +96,22 @@ let g:airline_theme = 'biogoo'
 
 If you use (Airline)[https://github.com/vim-airline/vim-airline], then Airline theme 'biogoo' is highly recommended to pair with this theme. They are almost in perfect match.
 
+## dark matrix (**NEW DarkMatrix I am developing, targeting low light**)
+
+![darkmatrix](screenshots/darkmatrix.png)
+
+```VimL
+set background=dark
+set termguicolors
+colorscheme darkmatrix
+let g:airline_theme = 'biogoo'
+```
+
+If you use (Airline)[https://github.com/vim-airline/vim-airline], then Airline theme 'biogoo' is highly recommended to pair with this theme. They are almost in perfect match.
+
 ## neonhive
 
-![neonhive](https://i.imgur.com/1p1gG8p.png)
+![neonhive](screenshots/neonhive.png)
 
 ```VimL
 set background=dark
@@ -106,7 +121,7 @@ colorscheme neonhive
 
 ## nordic-aurora
 
-![nordic-aurora](https://i.imgur.com/q305nZB.png)
+![nordic-aurora](screenshots/nordic-aurora.png)
 
 ```VimL
 set background=dark
@@ -116,7 +131,7 @@ colorscheme nordic-aurora
 
 ## superman
 
-![superman](https://i.imgur.com/PeuTMmW.png)
+![superman](screenshots/superman.png)
 
 ```VimL
 set background=dark
@@ -126,7 +141,7 @@ colorscheme superman
 
 ## topology
 
-![topology](https://i.imgur.com/uCXxfUp.png)
+![topology](screenshots/topology.png)
 
 ```VimL
 set background=dark
