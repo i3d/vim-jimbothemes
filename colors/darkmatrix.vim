@@ -3,6 +3,7 @@
 " Name: darkmatrix
 "
 " A matrix theme that fits the darker matrix term theme.
+" !! This is still WIP. !!
 """
 
 set background=dark
