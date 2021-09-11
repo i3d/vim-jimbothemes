@@ -175,16 +175,16 @@ hi TSConstMacro         guisp=NONE guifg=#204C18 guibg=NONE ctermfg=9 ctermbg=23
 hi TSFuncMacro          guisp=NONE guifg=#204C18 guibg=NONE ctermfg=9 ctermbg=233 gui=NONE cterm=bold
 hi TSConstBuiltin       guisp=NONE guifg=#204C18 guibg=NONE ctermfg=9 ctermbg=233 gui=NONE cterm=NONE
 hi TSConstructor        guisp=NONE guifg=#513C67 guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
-hi TSField              guisp=NONE guifg=#234D3B guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
-hi TSAttribute          guisp=NONE guifg=#234D3B guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
-hi TSProperty           guisp=NONE guifg=#234D3B guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
+hi TSField              guisp=NONE guifg=#23755A guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
+hi TSAttribute          guisp=NONE guifg=#23755A guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
+hi TSProperty           guisp=NONE guifg=#23755A guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
 hi TSFuncBuiltin        guisp=NONE guifg=#204C18 guibg=NONE ctermfg=9 ctermbg=233 gui=NONE cterm=bold
 hi TSKeywordReturn      guisp=NONE guifg=#D2F990 guibg=NONE ctermfg=14 ctermbg=233 gui=NONE cterm=NONE
 hi TSKeywordOperator    guisp=NONE guifg=#00FF00 guibg=NONE ctermfg=118 ctermbg=233 gui=NONE cterm=NONE
 hi TSKeywordFunction    guisp=NONE guifg=#00FF00 guibg=NONE ctermfg=118 ctermbg=233 gui=NONE cterm=NONE
 "hi TSMethod             guisp=NONE guifg=#B0FF57 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 " TSMethod 36DA9B
-hi TSMethod             guisp=NONE guifg=#204C18 guibg=NONE ctermfg=15 ctermbg=233 gui=NONE cterm=NONE
+hi TSMethod             guisp=NONE guifg=#2BB170 guibg=NONE ctermfg=15 ctermbg=233 gui=NONE cterm=NONE
 hi TSNamespace          guisp=NONE guifg=#204C18 guibg=NONE ctermfg=9 ctermbg=233 gui=NONE cterm=NONE
 hi TSNone               guisp=NONE guifg=#B0B400 guibg=NONE ctermfg=3 ctermbg=233 gui=NONE cterm=NONE
 hi TSParameter          guisp=NONE guifg=#819958 guibg=NONE ctermfg=100 ctermbg=233 gui=NONE cterm=NONE
