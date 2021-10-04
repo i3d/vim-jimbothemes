@@ -104,9 +104,9 @@ hi StatusLine       guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=233 
 hi StatusLineNC     guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi StatusLineTerm   guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi StatusLineTermNC guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi TabLine          guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi TabLineFill      guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi TabLineSel       guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
+hi TabLine          guisp=NONE guifg=#81B32C guibg=#0F191C ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
+hi TabLineFill      guisp=NONE guifg=#84CA0B guibg=#0F191C ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
+hi TabLineSel       guisp=NONE guifg=#00FF87 guibg=#0F191C ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Terminal         guisp=NONE guifg=#384545 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Title            guisp=NONE guifg=#ffd700 guibg=NONE ctermfg=94 ctermbg=233 gui=NONE cterm=NONE
 hi Visual           guisp=NONE guifg=#00FF87 guibg=#18282E ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
