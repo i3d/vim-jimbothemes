@@ -104,9 +104,9 @@ hi StatusLine       guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NON
 hi StatusLineNC     guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLineTerm   guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi StatusLineTermNC guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TabLine          guisp=NONE guifg=#444444 guibg=#000103 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TabLineFill      guisp=NONE guifg=#484848 guibg=#000103 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TabLineSel       guisp=NONE guifg=#737373 guibg=#000103 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TabLine          guisp=NONE guifg=#444444 guibg=#030303 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TabLineFill      guisp=NONE guifg=#484848 guibg=#030303 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TabLineSel       guisp=NONE guifg=#737373 guibg=#030303 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Terminal         guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Title            guisp=NONE guifg=#FAFF00 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual           guisp=NONE guifg=#FAFAFA guibg=#131313 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -116,8 +116,8 @@ hi WildMenu         guisp=NONE guifg=#737373 guibg=NONE ctermfg=NONE ctermbg=NON
 
 " major
 
-hi Normal     guisp=NONE guifg=#383B38 guibg=#000103 ctermfg=NONE ctermbg=NONE gui=NONE   cterm=NONE
-hi Comment    guisp=NONE guifg=#2B2B2B guibg=#040404 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Normal     guisp=NONE guifg=#383B38 guibg=#030303 ctermfg=NONE ctermbg=NONE gui=NONE   cterm=NONE
+hi Comment    guisp=NONE guifg=#333333 guibg=#040404 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#644A7F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE   cterm=bold
 hi Identifier guisp=NONE guifg=#7F847F guibg=NONE ctermfg=NONE ctermbg=NONE  gui=NONE   cterm=bold
 hi Statement  guisp=NONE guifg=#3C3C3C guibg=NONE ctermfg=NONE  ctermbg=NONE  gui=NONE   cterm=NONE
