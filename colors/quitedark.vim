@@ -141,7 +141,6 @@ hi Repeat         guisp=NONE guifg=#929492 guibg=NONE ctermfg=NONE  ctermbg=NONE
 hi Label          guisp=NONE guifg=#929492 guibg=NONE ctermfg=NONE  ctermbg=NONE gui=NONE cterm=bold
 hi Operator       guisp=NONE guifg=#644A7F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=bold
 hi Keyword        guisp=NONE guifg=#E6E6E6 guibg=NONE ctermfg=NONE  ctermbg=NONE gui=NONE cterm=bold
-"hi Keyword        guisp=NONE guifg=#644A7F guibg=NONE ctermfg=NONE  ctermbg=NONE gui=NONE cterm=bold
 hi Exception      guisp=NONE guifg=#7D7D7D guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Include        guisp=NONE guifg=#7D7D7D guibg=NONE ctermfg=NONE  ctermbg=NONE gui=NONE cterm=NONE
 hi Define         guisp=NONE guifg=#7D7D7D guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -160,13 +159,13 @@ hi Debug          guisp=NONE guifg=#7D7D7D guibg=NONE ctermfg=NONE ctermbg=NONE 
 " see https://github.com/nvim-treesitter/nvim-treesitter/blob/master/lua/nvim-treesitter/highlight.lua
 " for highligh groups
 hi TSAnnotation         guisp=NONE guifg=#4B4C4B guibg=NONE    ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSNode               guisp=NONE guifg=#4B4C4B guibg=#000103 ctermfg=NONE ctermbg=NONE  gui=NONE   cterm=NONE
+hi TSNode               guisp=NONE guifg=#4B4C4B guibg=#070707 ctermfg=NONE ctermbg=NONE  gui=NONE   cterm=NONE
 hi TSTypeBuiltin        guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE  gui=NONE   cterm=bold
 " #[] as well.
 hi TSVariable           guisp=NONE guifg=#535453 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE   cterm=bold
 hi TSVariableBuiltin    guisp=NONE guifg=#535453 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE   cterm=bold
 hi TSRepeat             guisp=NONE guifg=#929492 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSConstant           guisp=NONE guifg=#9F9F9F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSConstant           guisp=NONE guifg=#CACACA guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSConstMacro         guisp=NONE guifg=#676767 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFuncMacro          guisp=NONE guifg=#676767 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=bold
 hi TSConstBuiltin       guisp=NONE guifg=#676767 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -180,13 +179,12 @@ hi TSKeywordOperator    guisp=NONE guifg=#644A7F guibg=NONE ctermfg=NONE ctermbg
 hi TSKeywordFunction    guisp=NONE guifg=#7D7F7D guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSMethod             guisp=NONE guifg=#8F8F8F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNamespace          guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSNone               guisp=NONE guifg=#9F9F9F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSNone               guisp=NONE guifg=#E6E6E6 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSParameter          guisp=NONE guifg=#4D4D4D guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSParameterReference guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSPunctDelimiter     guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-" bracket FFAF00
-hi TSPunctBracket       guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE  
-hi TSPunctSpecial       guisp=NONE guifg=#9F9F9F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctBracket       guisp=NONE guifg=#8F8F8F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctSpecial       guisp=NONE guifg=#8F8F8F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStringRegex        guisp=NONE guifg=#9F9F9F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStringEscape       guisp=NONE guifg=#9F9F9F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStringSpecial      guisp=NONE guifg=#9F9F9F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
