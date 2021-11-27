@@ -1,6 +1,6 @@
 
 """
-" Name: quitedark
+" Name: carbondark
 """
 
 set background=dark
@@ -10,7 +10,7 @@ if exists('syntax_on')
 	syntax reset
 endif
 
-let g:colors_name='quitedark'
+let g:colors_name='carbondark'
 set t_Co=256
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
