@@ -78,7 +78,7 @@ hi VertSplit        guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NON
 hi Folded           guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi FoldColumn       guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SignColumn       guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi IncSearch        guisp=NONE guifg=#737373 guibg=#131313 ctermfg=NONE ctermbg=NONE gui=NONE cterm=bold
+hi IncSearch        guisp=NONE guifg=#E6E6E6 guibg=#131313 ctermfg=NONE ctermbg=NONE gui=NONE cterm=bold
 hi LineNr           guisp=NONE guifg=#222222 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=bold
 hi LineNrAbove      guisp=NONE guifg=#222222 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LineNrBelow      guisp=NONE guifg=#222222 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -88,12 +88,12 @@ hi ModeMsg          guisp=NONE guifg=#737373 guibg=NONE ctermfg=NONE ctermbg=NON
 hi MoreMsg          guisp=NONE guifg=#737373 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NonText          guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Pmenu            guisp=NONE guifg=#606060 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi PmenuSel         guisp=NONE guifg=#606060 guibg=#131313 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi PmenuSel         guisp=NONE guifg=#CACACA guibg=#131313 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuSbar        guisp=NONE guifg=#606060 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi PmenuThumb       guisp=NONE guifg=#606060 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Question         guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi QuickFixLine     guisp=NONE guifg=#737373 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Search           guisp=NONE guifg=#737373 guibg=#131313 ctermfg=NONE ctermbg=NONE gui=NONE cterm=bold
+hi Search           guisp=NONE guifg=#E6E6E6 guibg=#131313 ctermfg=NONE ctermbg=NONE gui=NONE cterm=bold
 hi SpecialKey       guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellBad         guisp=NONE guifg=#7D7D7D guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi SpellCap         guisp=NONE guifg=#7D7D7D guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
