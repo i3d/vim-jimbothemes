@@ -107,7 +107,7 @@ hi TabLine          guisp=NONE guifg=#444444 guibg=#0E0E0E ctermfg=NONE ctermbg=
 hi TabLineFill      guisp=NONE guifg=#484848 guibg=#0E0E0E ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TabLineSel       guisp=NONE guifg=#737373 guibg=#0E0E0E ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Terminal         guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Title            guisp=NONE guifg=#FAFF00 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Title            guisp=NONE guifg=#ADFFA7 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Visual           guisp=NONE guifg=#FAFAFA guibg=#131313 ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VisualNOS        guisp=NONE guifg=#737373 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WarningMsg       guisp=NONE guifg=#737373 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -127,7 +127,7 @@ hi Special    guisp=NONE guifg=#3C3C3C guibg=NONE ctermfg=NONE ctermbg=NONE  gui
 hi Underlined guisp=NONE guifg=#3E3E3E guibg=NONE ctermfg=NONE  ctermbg=NONE  gui=NONE   cterm=NONE
 hi Ignore     guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE  gui=NONE   cterm=NONE
 hi Error      guisp=NONE guifg=#949494 guibg=NONE ctermfg=NONE ctermbg=NONE  gui=NONE   cterm=NONE
-hi Todo       guisp=NONE guifg=#FAFF00 guibg=NONE ctermfg=NONE ctermbg=NONE  gui=bold cterm=bold
+hi Todo       guisp=NONE guifg=#ADFFA7 guibg=NONE ctermfg=NONE ctermbg=NONE  gui=bold cterm=bold
 
 " minor
 
