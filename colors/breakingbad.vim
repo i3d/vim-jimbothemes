@@ -127,7 +127,8 @@ hi Todo       guisp=NONE guifg=#F7E790 guibg=NONE ctermfg=168 ctermbg=234  gui=b
 
 " minor
 
-hi String         guisp=NONE guifg=#EAD76C guibg=NONE ctermfg=101 ctermbg=234 gui=NONE cterm=NONE
+" hi String         guisp=NONE guifg=#EAD76C guibg=NONE ctermfg=101 ctermbg=234 gui=NONE cterm=NONE
+hi String         guisp=NONE guibg=#496519 guifg=#000000 ctermfg=101 ctermbg=234 gui=bold cterm=bold
 hi Character      guisp=NONE guifg=#404040 guibg=NONE ctermfg=231 ctermbg=234 gui=bold cterm=bold
 hi Number         guisp=NONE guifg=#EDEDED guibg=NONE ctermfg=121 ctermbg=234 gui=bold cterm=bold
 hi Boolean        guisp=NONE guifg=#EDEDED guibg=NONE ctermfg=149 ctermbg=234 gui=bold cterm=bold
