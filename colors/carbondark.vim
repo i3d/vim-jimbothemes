@@ -115,7 +115,7 @@ hi WildMenu         guisp=NONE guifg=#737373 guibg=NONE ctermfg=NONE ctermbg=NON
 
 " major
 
-" #644A7F was #644A7F
+" Error was #949494
 hi Normal     guisp=NONE guifg=#4B4C4B guibg=#0E0E0E ctermfg=NONE ctermbg=NONE gui=NONE   cterm=NONE
 hi Comment    guisp=NONE guifg=#3C3C3C guibg=#111111 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#644A7F guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
@@ -126,21 +126,28 @@ hi Type       guisp=NONE guifg=#E6E6E6 guibg=NONE ctermfg=NONE ctermbg=NONE  gui
 hi Special    guisp=NONE guifg=#3C3C3C guibg=NONE ctermfg=NONE ctermbg=NONE  gui=bold cterm=bold
 hi Underlined guisp=NONE guifg=#3E3E3E guibg=NONE ctermfg=NONE  ctermbg=NONE  gui=NONE   cterm=NONE
 hi Ignore     guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE  gui=NONE   cterm=NONE
-hi Error      guisp=NONE guifg=#949494 guibg=NONE ctermfg=NONE ctermbg=NONE  gui=NONE   cterm=NONE
-hi Todo       guisp=NONE guifg=#ADFFA7 guibg=NONE ctermfg=NONE ctermbg=NONE  gui=bold cterm=bold
+hi Error      guisp=NONE guifg=#460909 guibg=NONE ctermfg=NONE ctermbg=NONE  gui=NONE   cterm=NONE
+hi Todo       guisp=NONE guifg=#90D762 guibg=NONE ctermfg=NONE ctermbg=NONE  gui=bold cterm=bold
 
 " minor
 
 "hi String         guisp=NONE guifg=#575757 guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=NONE
 hi String         guisp=NONE guifg=#000000 guibg=#3F3F3F ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
-hi Character      guisp=NONE guifg=#CACACA guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
-hi Number         guisp=NONE guifg=#FAFAFA guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
-hi Boolean        guisp=NONE guifg=#FAFAFA guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
-hi Float          guisp=NONE guifg=#FAFAFA guibg=NONE ctermfg=NONE  ctermbg=NONE gui=bold cterm=bold
+"hi Character      guisp=NONE guifg=#CACACA guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
+"hi Number         guisp=NONE guifg=#FAFAFA guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
+"hi Boolean        guisp=NONE guifg=#FAFAFA guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
+"hi Float          guisp=NONE guifg=#FAFAFA guibg=NONE ctermfg=NONE  ctermbg=NONE gui=bold cterm=bold
+hi Character      guisp=NONE guifg=#81B32C guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
+hi Number         guisp=NONE guifg=#81B32C guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
+hi Boolean        guisp=NONE guifg=#81B32C guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
+hi Float          guisp=NONE guifg=#81B32C guibg=NONE ctermfg=NONE  ctermbg=NONE gui=bold cterm=bold
 hi Function       guisp=NONE guifg=#7D7F7D guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
-hi Conditional    guisp=NONE guifg=#929492 guibg=NONE ctermfg=NONE  ctermbg=NONE gui=NONE cterm=NONE
-hi Repeat         guisp=NONE guifg=#929492 guibg=NONE ctermfg=NONE  ctermbg=NONE gui=NONE cterm=NONE
-hi Label          guisp=NONE guifg=#929492 guibg=NONE ctermfg=NONE  ctermbg=NONE gui=bold cterm=bold
+"hi Conditional    guisp=NONE guifg=#929492 guibg=NONE ctermfg=NONE  ctermbg=NONE gui=NONE cterm=NONE
+"hi Repeat         guisp=NONE guifg=#929492 guibg=NONE ctermfg=NONE  ctermbg=NONE gui=NONE cterm=NONE
+"hi Label          guisp=NONE guifg=#929492 guibg=NONE ctermfg=NONE  ctermbg=NONE gui=bold cterm=bold
+hi Conditional    guisp=NONE guifg=#B39700 guibg=NONE ctermfg=NONE  ctermbg=NONE gui=NONE cterm=NONE
+hi Repeat         guisp=NONE guifg=#B39700 guibg=NONE ctermfg=NONE  ctermbg=NONE gui=NONE cterm=NONE
+hi Label          guisp=NONE guifg=#B39700 guibg=NONE ctermfg=NONE  ctermbg=NONE gui=bold cterm=bold
 hi Operator       guisp=NONE guifg=#644A7F guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Keyword        guisp=NONE guifg=#E6E6E6 guibg=NONE ctermfg=NONE  ctermbg=NONE gui=bold cterm=bold
 hi Exception      guisp=NONE guifg=#7D7D7D guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -184,11 +191,11 @@ hi TSNamespace          guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg
 hi TSNone               guisp=NONE guifg=#E6E6E6 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSParameter          guisp=NONE guifg=#4D4D4D guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSParameterReference guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSPunctDelimiter     guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSPunctBracket       guisp=NONE guifg=#8F8F8F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSPunctSpecial       guisp=NONE guifg=#8F8F8F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSStringRegex        guisp=NONE guifg=#9F9F9F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSStringEscape       guisp=NONE guifg=#9F9F9F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctDelimiter     guisp=NONE guifg=#644A7F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctBracket       guisp=NONE guifg=#644A7F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSPunctSpecial       guisp=NONE guifg=#644A7F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSStringRegex        guisp=NONE guifg=#81B32C guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSStringEscape       guisp=NONE guifg=#81B32C guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSStringSpecial      guisp=NONE guifg=#9F9F9F guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSSymbol             guisp=NONE guifg=#FAFAFA guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSText               guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
