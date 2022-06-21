@@ -126,7 +126,7 @@ hi Type       guisp=NONE guifg=#E6E6E6 guibg=NONE ctermfg=NONE ctermbg=NONE  gui
 hi Special    guisp=NONE guifg=#3C3C3C guibg=NONE ctermfg=NONE ctermbg=NONE  gui=bold cterm=bold
 hi Underlined guisp=NONE guifg=#3E3E3E guibg=NONE ctermfg=NONE  ctermbg=NONE  gui=NONE   cterm=NONE
 hi Ignore     guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE  gui=NONE   cterm=NONE
-hi Error      guisp=NONE guifg=#460909 guibg=NONE ctermfg=NONE ctermbg=NONE  gui=NONE   cterm=NONE
+hi Error      guisp=NONE guifg=#650D0D guibg=NONE ctermfg=NONE ctermbg=NONE  gui=NONE   cterm=NONE
 hi Todo       guisp=NONE guifg=#90D762 guibg=NONE ctermfg=NONE ctermbg=NONE  gui=bold cterm=bold
 
 " minor
