@@ -97,7 +97,7 @@ hi PmenuSbar        guisp=NONE guifg=#B8CD58 guibg=NONE ctermfg=231 ctermbg=233 
 hi PmenuThumb       guisp=NONE guifg=#B8CD58 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Question         guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi QuickFixLine     guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi Search           guisp=NONE guifg=#ACBFC4 guibg=#212321 ctermfg=13 ctermbg=232 gui=bold cterm=bold
+hi Search           guisp=NONE guifg=#E4FF66 guibg=#212321 ctermfg=13 ctermbg=232 gui=bold cterm=bold
 hi SpecialKey       guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi SpellBad         guisp=NONE guifg=#3E6925 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi SpellCap         guisp=NONE guifg=#3E6925 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
