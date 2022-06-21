@@ -125,7 +125,7 @@ hi WildMenu         guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=233 g
 hi Normal     guisp=NONE guifg=#9DB19C guibg=#1A1C1A ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
 hi Comment    guisp=NONE guifg=#5A6B5A guibg=#1D201D ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#513C67 guibg=#C1FF8A ctermfg=55 ctermbg=NONE gui=bold cterm=bold
-hi Identifier guisp=NONE guifg=#BCD053 guibg=#2 ctermfg=22 ctermbg=NONE  gui=bold cterm=bold
+hi Identifier guisp=NONE guifg=#BCD053 guibg=NONE ctermfg=22 ctermbg=NONE  gui=bold cterm=bold
 hi Statement  guisp=NONE guifg=#82D968 guibg=NONE ctermfg=22  ctermbg=NONE  gui=NONE   cterm=NONE
 hi PreProc    guisp=NONE guifg=#4C584C guibg=NONE ctermfg=4 ctermbg=NONE  gui=bold cterm=bold
 hi Type       guisp=NONE guifg=#C5DC58 guibg=NONE ctermfg=2 ctermbg=NONE  gui=bold cterm=bold
