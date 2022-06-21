@@ -112,7 +112,7 @@ hi TabLineFill      guisp=NONE guifg=#84CA0B guibg=#212321 ctermfg=231 ctermbg=2
 hi TabLineSel       guisp=NONE guifg=#ACBF4C guibg=#212321 ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Terminal         guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Title            guisp=NONE guifg=#B0B400 guibg=NONE ctermfg=94 ctermbg=233 gui=NONE cterm=NONE
-hi Visual           guisp=NONE guifg=#768040 guibg=#232523 ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
+hi Visual           guisp=NONE guifg=#8D994D guibg=#232523 ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
 hi VisualNOS        guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
 hi WarningMsg       guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=NONE
 hi WildMenu         guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=NONE
