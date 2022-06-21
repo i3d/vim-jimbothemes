@@ -81,7 +81,7 @@ hi VertSplit        guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 
 hi Folded           guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi FoldColumn       guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi SignColumn       guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi IncSearch        guisp=NONE guifg=#AFBF4C guibg=#212321 ctermfg=13 ctermbg=232 gui=bold cterm=bold
+hi IncSearch        guisp=NONE guifg=#AFBF4C guibg=#161816 ctermfg=13 ctermbg=232 gui=bold cterm=bold
 hi LineNr           guisp=NONE guifg=#293933 guibg=NONE ctermfg=239 ctermbg=235 gui=NONE cterm=bold
 hi LineNrAbove      guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=232 gui=NONE cterm=NONE
 hi LineNrBelow      guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=232 gui=NONE cterm=NONE
@@ -97,7 +97,7 @@ hi PmenuSbar        guisp=NONE guifg=#B8CD58 guibg=NONE ctermfg=231 ctermbg=233 
 hi PmenuThumb       guisp=NONE guifg=#B8CD58 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Question         guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi QuickFixLine     guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi Search           guisp=NONE guifg=#E4FF66 guibg=#212321 ctermfg=13 ctermbg=232 gui=bold cterm=bold
+hi Search           guisp=NONE guifg=#E4FF66 guibg=#161816 ctermfg=13 ctermbg=232 gui=bold cterm=bold
 hi SpecialKey       guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi SpellBad         guisp=NONE guifg=#3E6925 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi SpellCap         guisp=NONE guifg=#3E6925 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
@@ -112,7 +112,7 @@ hi TabLineFill      guisp=NONE guifg=#84CA0B guibg=#212321 ctermfg=231 ctermbg=2
 hi TabLineSel       guisp=NONE guifg=#ACBF4C guibg=#212321 ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Terminal         guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Title            guisp=NONE guifg=#B0B400 guibg=NONE ctermfg=94 ctermbg=233 gui=NONE cterm=NONE
-hi Visual           guisp=NONE guifg=#ACBF4C guibg=#212321 ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
+hi Visual           guisp=NONE guifg=#ACBF4C guibg=#232523 ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
 hi VisualNOS        guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
 hi WarningMsg       guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=NONE
 hi WildMenu         guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=NONE
