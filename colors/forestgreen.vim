@@ -69,7 +69,7 @@ hi Cursor           guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 
 hi lCursor          guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi CursorIM         guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi CursorColumn     guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi CursorLine       guisp=NONE guifg=#B5E54E guibg=#212321 ctermfg=14 ctermbg=233 gui=bold cterm=bold
+hi CursorLine       guisp=NONE guifg=#B5E54E guibg=#192129 ctermfg=14 ctermbg=233 gui=bold cterm=bold
 hi Directory        guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi DiffAdd          guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi DiffChange       guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
@@ -92,7 +92,7 @@ hi ModeMsg          guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 
 hi MoreMsg          guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi NonText          guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Pmenu            guisp=NONE guifg=#B8CD58 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi PmenuSel         guisp=NONE guifg=#E4FF66 guibg=#212321 ctermfg=231 ctermbg=235 gui=NONE cterm=NONE
+hi PmenuSel         guisp=NONE guifg=#E4FF66 guibg=#192129 ctermfg=231 ctermbg=235 gui=NONE cterm=NONE
 hi PmenuSbar        guisp=NONE guifg=#B8CD58 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi PmenuThumb       guisp=NONE guifg=#B8CD58 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Question         guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
@@ -107,12 +107,12 @@ hi StatusLine       guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 
 hi StatusLineNC     guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi StatusLineTerm   guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi StatusLineTermNC guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi TabLine          guisp=NONE guifg=#9CE667 guibg=#212321 ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi TabLineFill      guisp=NONE guifg=#84CA0B guibg=#212321 ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi TabLineSel       guisp=NONE guifg=#ACBF4C guibg=#212321 ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
+hi TabLine          guisp=NONE guifg=#9CE667 guibg=#192129 ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
+hi TabLineFill      guisp=NONE guifg=#84CA0B guibg=#192129 ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
+hi TabLineSel       guisp=NONE guifg=#ACBF4C guibg=#192129 ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Terminal         guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Title            guisp=NONE guifg=#B0B400 guibg=NONE ctermfg=94 ctermbg=233 gui=NONE cterm=NONE
-hi Visual           guisp=NONE guifg=#A4B259 guibg=#232523 ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
+hi Visual           guisp=NONE guifg=#A4B259 guibg=#1F2833 ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
 hi VisualNOS        guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
 hi WarningMsg       guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=NONE
 hi WildMenu         guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=NONE
@@ -121,9 +121,11 @@ hi WildMenu         guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=233 g
 
 " #3B403A
 " #2A2E2A
-" #212321
-hi Normal     guisp=NONE guifg=#9DB19C guibg=#1A1C1A ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
-hi Comment    guisp=NONE guifg=#5A6B5A guibg=#1D201D ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
+" #192129
+"hi Normal     guisp=NONE guifg=#9DB19C guibg=#1A1C1A ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
+"hi Comment    guisp=NONE guifg=#5A6B5A guibg=#1D201D ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
+hi Normal     guisp=NONE guifg=#9DB19C guibg=#151B22 ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
+hi Comment    guisp=NONE guifg=#5A6B5A guibg=#192029 ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#513C67 guibg=#C1FF8A ctermfg=55 ctermbg=NONE gui=bold cterm=bold
 hi Identifier guisp=NONE guifg=#BCD053 guibg=NONE ctermfg=22 ctermbg=NONE  gui=bold cterm=bold
 hi Statement  guisp=NONE guifg=#82D968 guibg=NONE ctermfg=22  ctermbg=NONE  gui=NONE   cterm=NONE
