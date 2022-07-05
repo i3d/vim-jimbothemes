@@ -69,7 +69,7 @@ hi Cursor           guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 
 hi lCursor          guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi CursorIM         guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi CursorColumn     guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi CursorLine       guisp=NONE guifg=#B5E54E guibg=#192129 ctermfg=14 ctermbg=233 gui=bold cterm=bold
+hi CursorLine       guisp=NONE guifg=#B5E54E guibg=#192129 ctermfg=14 ctermbg=233 gui=bold,italic cterm=bold,italic
 hi Directory        guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi DiffAdd          guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi DiffChange       guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
@@ -81,8 +81,8 @@ hi VertSplit        guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 
 hi Folded           guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi FoldColumn       guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi SignColumn       guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi IncSearch        guisp=NONE guifg=#AFBF4C guibg=#161816 ctermfg=13 ctermbg=232 gui=bold cterm=bold
-hi LineNr           guisp=NONE guifg=#293933 guibg=NONE ctermfg=239 ctermbg=235 gui=NONE cterm=bold
+hi IncSearch        guisp=NONE guifg=#AFBF4C guibg=#161816 ctermfg=13 ctermbg=232 gui=bold,italic cterm=bold,italic
+hi LineNr           guisp=NONE guifg=#293933 guibg=NONE ctermfg=239 ctermbg=235 gui=bold cterm=bold
 hi LineNrAbove      guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=232 gui=NONE cterm=NONE
 hi LineNrBelow      guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=232 gui=NONE cterm=NONE
 hi CursorLineNr     guisp=NONE guifg=#B0CA0B guibg=NONE ctermfg=10 ctermbg=233 gui=bold cterm=bold
@@ -146,11 +146,11 @@ hi Number         guisp=NONE guifg=#D6E66E guibg=NONE ctermfg=13 ctermbg=233 gui
 hi Boolean        guisp=NONE guifg=#90D762 guibg=NONE ctermfg=13 ctermbg=233 gui=bold cterm=bold
 hi Float          guisp=NONE guifg=#90D762 guibg=NONE ctermfg=13  ctermbg=235 gui=bold cterm=bold
 hi Function       guisp=NONE guifg=#7D8C3A guibg=NONE ctermfg=15 ctermbg=233 gui=bold cterm=bold
-hi Conditional    guisp=NONE guifg=#A2CC32 guibg=NONE ctermfg=22  ctermbg=233 gui=NONE cterm=NONE
-hi Repeat         guisp=NONE guifg=#A2CC32 guibg=NONE ctermfg=22  ctermbg=233 gui=NONE cterm=NONE
+hi Conditional    guisp=NONE guifg=#A2CC32 guibg=NONE ctermfg=22  ctermbg=233 gui=italic cterm=italic
+hi Repeat         guisp=NONE guifg=#A2CC32 guibg=NONE ctermfg=22  ctermbg=233 gui=italic cterm=italic
 hi Label          guisp=NONE guifg=#A2CC32 guibg=NONE ctermfg=22  ctermbg=233 gui=bold cterm=bold
 hi Operator       guisp=NONE guifg=#513C67 guibg=NONE ctermfg=55 ctermbg=233 gui=bold cterm=bold
-hi Keyword        guisp=NONE guifg=#BDCC1E guibg=NONE ctermfg=28  ctermbg=233 gui=bold cterm=bold
+hi Keyword        guisp=NONE guifg=#BDCC1E guibg=NONE ctermfg=28  ctermbg=233 gui=bold,italic cterm=bold,italic
 "hi Keyword        guisp=NONE guifg=#513C67 guibg=NONE ctermfg=67  ctermbg=233 gui=cterm=bold
 hi Exception      guisp=NONE guifg=#C4EDA0 guibg=NONE ctermfg=14 ctermbg=233 gui=NONE cterm=NONE
 hi Include        guisp=NONE guifg=#97B392 guibg=NONE ctermfg=22  ctermbg=233 gui=NONE cterm=NONE
@@ -173,21 +173,21 @@ hi TSAnnotation         guisp=NONE guifg=#4C5249 guibg=NONE    ctermfg=4 ctermbg
 hi TSNode               guisp=NONE guifg=#31601D guibg=#101A1E ctermfg=15 ctermbg=235  gui=NONE   cterm=NONE
 hi TSTypeBuiltin        guisp=NONE guifg=#C5DC58 guibg=NONE ctermfg=9 ctermbg=233  gui=bold cterm=bold
 " #[] as well.
-hi TSVariable           guisp=NONE guifg=#9DB19C guibg=NONE ctermfg=10 ctermbg=NONE gui=bold cterm=bold
-hi TSVariableBuiltin    guisp=NONE guifg=#9DB19C guibg=NONE ctermfg=10 ctermbg=NONE gui=bold cterm=bold
-hi TSRepeat             guisp=NONE guifg=#A2CC32 guibg=NONE ctermfg=6 ctermbg=233 gui=NONE cterm=NONE
+hi TSVariable           guisp=NONE guifg=#9DB19C guibg=NONE ctermfg=10 ctermbg=NONE gui=bold,italic cterm=bold,italic
+hi TSVariableBuiltin    guisp=NONE guifg=#9DB19C guibg=NONE ctermfg=10 ctermbg=NONE gui=bold,italic cterm=bold,italic
+hi TSRepeat             guisp=NONE guifg=#A2CC32 guibg=NONE ctermfg=6 ctermbg=233 gui=italic cterm=italic
 hi TSConstant           guisp=NONE guifg=#BEE14D guibg=NONE ctermfg=3 ctermbg=233 gui=NONE cterm=NONE
 hi TSConstMacro         guisp=NONE guifg=#7D8C3A guibg=NONE ctermfg=9 ctermbg=233 gui=NONE cterm=NONE
-hi TSFuncMacro          guisp=NONE guifg=#7D8C3A guibg=NONE ctermfg=9 ctermbg=233 gui=bold cterm=bold
+hi TSFuncMacro          guisp=NONE guifg=#7D8C3A guibg=NONE ctermfg=9 ctermbg=233 gui=bold,italic cterm=bold,italic
 hi TSConstBuiltin       guisp=NONE guifg=#7D8C3A guibg=NONE ctermfg=9 ctermbg=233 gui=NONE cterm=NONE
 hi TSConstructor        guisp=NONE guifg=#7D8C3A guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
 hi TSField              guisp=NONE guifg=#ACBF4C guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
 hi TSAttribute          guisp=NONE guifg=#ACBF4C guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
 hi TSProperty           guisp=NONE guifg=#ACBF4C guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
-hi TSFuncBuiltin        guisp=NONE guifg=#7D8C3A guibg=NONE ctermfg=9 ctermbg=233 gui=bold cterm=bold
-hi TSKeywordReturn      guisp=NONE guifg=#C5DC58 guibg=NONE ctermfg=14 ctermbg=233 gui=NONE cterm=NONE
+hi TSFuncBuiltin        guisp=NONE guifg=#7D8C3A guibg=NONE ctermfg=9 ctermbg=233 gui=bold,italic cterm=bold,italic
+hi TSKeywordReturn      guisp=NONE guifg=#C5DC58 guibg=NONE ctermfg=14 ctermbg=233 gui=bold,italic cterm=bold,italic
 hi TSKeywordOperator    guisp=NONE guifg=#AABFA9 guibg=NONE ctermfg=118 ctermbg=233 gui=NONE cterm=NONE
-hi TSKeywordFunction    guisp=NONE guifg=#AABFA9 guibg=NONE ctermfg=118 ctermbg=233 gui=NONE cterm=NONE
+hi TSKeywordFunction    guisp=NONE guifg=#AABFA9 guibg=NONE ctermfg=118 ctermbg=233 gui=bold,italic cterm=bold,italic
 "hi TSMethod             guisp=NONE guifg=#B0FF57 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 " TSMethod 36DA9B
 hi TSMethod             guisp=NONE guifg=#BDCC9B guibg=NONE ctermfg=15 ctermbg=233 gui=NONE cterm=NONE
@@ -197,7 +197,7 @@ hi TSParameter          guisp=NONE guifg=#819958 guibg=NONE ctermfg=100 ctermbg=
 hi TSParameterReference guisp=NONE guifg=#C5DC58 guibg=NONE ctermfg=85 ctermbg=233 gui=NONE cterm=NONE
 hi TSPunctDelimiter     guisp=NONE guifg=#444A44 guibg=NONE ctermfg=95 ctermbg=233 gui=NONE cterm=NONE
 " bracket FFAF00
-hi TSPunctBracket       guisp=NONE guifg=#444A44 guibg=NONE ctermfg=94 ctermbg=233 gui=NONE cterm=NONE  
+hi TSPunctBracket       guisp=NONE guifg=#444A44 guibg=NONE ctermfg=94 ctermbg=233 gui=NONE cterm=NONE
 hi TSPunctSpecial       guisp=NONE guifg=#513C67 guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
 hi TSStringRegex        guisp=NONE guifg=#513C67 guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
 hi TSStringEscape       guisp=NONE guifg=#513C67 guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
