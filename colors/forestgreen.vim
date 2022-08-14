@@ -65,8 +65,8 @@ endif
 
 hi ColorColumn      guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Conceal          guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi Cursor           guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi lCursor          guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
+hi Cursor           guisp=NONE guifg=#FAFF00 guibg=#FAFF00 ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
+hi lCursor          guisp=NONE guifg=#FAFF00 guibg=#FAFF00 ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi CursorIM         guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi CursorColumn     guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 " also for multiple-match highlight
@@ -126,9 +126,10 @@ hi WildMenu         guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=233 g
 " #3B403A
 " #2A2E2A
 " #192129
-"hi Normal     guisp=NONE guifg=#9DB19C guibg=#1A1C1A ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
+"hi Normal     guisp=NONE guifg=#9DB19C guibg=#141820 ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
 "hi Comment    guisp=NONE guifg=#5A6B5A guibg=#1D201D ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
-hi Normal     guisp=NONE guifg=#9DB19C guibg=#151B22 ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
+"hi Normal     guisp=NONE guifg=#9DB19C guibg=#151B22 ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
+hi Normal     guisp=NONE guifg=#9DB19C guibg=#141820 ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
 hi Comment    guisp=NONE guifg=#5A6B5A guibg=#192029 ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#513C67 guibg=#C1FF8A ctermfg=55 ctermbg=NONE gui=bold cterm=bold
 hi Identifier guisp=NONE guifg=#BCD053 guibg=NONE ctermfg=22 ctermbg=NONE  gui=bold cterm=bold
