@@ -72,7 +72,8 @@ hi CursorColumn     guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 
 " also for multiple-match highlight
 "hi CursorLine       guisp=NONE guifg=#192129 guibg=#B5E54E  ctermfg=14 ctermbg=233 gui=bold,italic cterm=bold,italic
 "hi CursorLine       guisp=NONE guifg=#192129 guibg=#ACBF4C ctermfg=14 ctermbg=233 gui=bold,italic cterm=bold,italic
-hi CursorLine       guisp=NONE guifg=#192129 guibg=#7A9917 ctermfg=14 ctermbg=233 gui=bold,italic cterm=bold,italic
+"hi CursorLine       guisp=NONE guifg=#192129 guibg=#7A9917 ctermfg=14 ctermbg=233 gui=bold,italic cterm=bold,italic
+hi CursorLine       guisp=NONE guifg=#192129 guibg=#B0C44A ctermfg=14 ctermbg=233 gui=bold,italic cterm=bold,italic
 hi Directory        guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi DiffAdd          guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi DiffChange       guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
