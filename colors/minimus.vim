@@ -114,7 +114,7 @@ hi TabLineFill      guisp=NONE guifg=#84CA0B guibg=#1B2832 ctermfg=231 ctermbg=2
 hi TabLineSel       guisp=NONE guifg=#ACBF4C guibg=#1B2832 ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Terminal         guisp=NONE guifg=#415F73 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Title            guisp=NONE guifg=#B0B400 guibg=NONE ctermfg=94 ctermbg=233 gui=NONE cterm=NONE
-hi Visual           guisp=NONE guifg=NONE guibg=#151F26 ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
+hi Visual           guisp=NONE guifg=NONE guibg=#10171C ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
 hi VisualNOS        guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
 hi WarningMsg       guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=NONE
 hi WildMenu         guisp=NONE guifg=#72BF9F guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=NONE
