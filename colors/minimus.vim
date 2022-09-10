@@ -83,7 +83,7 @@ hi VertSplit        guisp=NONE guifg=#415F73 guibg=NONE ctermfg=231 ctermbg=233 
 hi Folded           guisp=NONE guifg=#415F73 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi FoldColumn       guisp=NONE guifg=#415F73 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi SignColumn       guisp=NONE guifg=#415F73 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi IncSearch        guisp=NONE guifg=#AFBF4C guibg=#1B2832 ctermfg=13 ctermbg=232 gui=bold,italic cterm=bold,italic
+hi IncSearch        guisp=NONE guifg=#409AC4 guibg=#1B2832 ctermfg=13 ctermbg=232 gui=bold,italic cterm=bold,italic
 hi LineNr           guisp=NONE guifg=#264039 guibg=NONE ctermfg=239 ctermbg=235 gui=bold cterm=bold
 hi LineNrAbove      guisp=NONE guifg=#264039 guibg=NONE ctermfg=231 ctermbg=232 gui=NONE cterm=NONE
 hi LineNrBelow      guisp=NONE guifg=#264039 guibg=NONE ctermfg=231 ctermbg=232 gui=NONE cterm=NONE
@@ -99,7 +99,8 @@ hi PmenuSbar        guisp=NONE guifg=#B8CD58 guibg=NONE ctermfg=231 ctermbg=233 
 hi PmenuThumb       guisp=NONE guifg=#5F818F guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Question         guisp=NONE guifg=#415F73 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi QuickFixLine     guisp=NONE guifg=#415F73 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
-hi Search           guisp=NONE guifg=#E4FF66 guibg=#1B2832 ctermfg=13 ctermbg=232 gui=bold cterm=bold
+" search pattern highlight
+hi Search           guisp=NONE guifg=#409AC4 guibg=#1B2832 ctermfg=13 ctermbg=232 gui=bold cterm=bold
 hi SpecialKey       guisp=NONE guifg=#3E8080 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi SpellBad         guisp=NONE guifg=#3E6925 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi SpellCap         guisp=NONE guifg=#3E6925 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
@@ -114,9 +115,12 @@ hi TabLineFill      guisp=NONE guifg=#84CA0B guibg=#1B2832 ctermfg=231 ctermbg=2
 hi TabLineSel       guisp=NONE guifg=#ACBF4C guibg=#1B2832 ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Terminal         guisp=NONE guifg=#415F73 guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi Title            guisp=NONE guifg=#B0B400 guibg=NONE ctermfg=94 ctermbg=233 gui=NONE cterm=NONE
+" selection highlight
 hi Visual           guisp=NONE guifg=NONE guibg=#10171C ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
-hi VisualNOS        guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
-hi WarningMsg       guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=NONE
+" selection effective highlight
+hi VisualNOS        guisp=NONE guifg=#409AC4 guibg=NONE ctermfg=13 ctermbg=232 gui=NONE cterm=NONE
+hi WarningMsg       guisp=NONE guifg=#409AC4 guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=NONE
+" wilder
 hi WildMenu         guisp=NONE guifg=#72BF9F guibg=NONE ctermfg=13 ctermbg=233 gui=NONE cterm=NONE
 
 " major
