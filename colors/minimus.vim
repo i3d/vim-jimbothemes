@@ -140,16 +140,16 @@ hi Todo       guisp=NONE guifg=#408386 guibg=NONE ctermfg=11 ctermbg=NONE  gui=b
 " #C5DC58
 hi String         guisp=NONE guifg=#70C27F guibg=NONE ctermfg=2 ctermbg=233 gui=NONE cterm=NONE
 hi Character      guisp=NONE guifg=#3F8D6C guibg=NONE ctermfg=13 ctermbg=233 gui=bold cterm=bold
-hi Number         guisp=NONE guifg=#7068B1 guibg=None ctermfg=13 ctermbg=233 gui=bold cterm=bold
+hi Number         guisp=NONE guifg=#7068B1 guibg=#18232D ctermfg=13 ctermbg=233 gui=bold cterm=bold
 hi Boolean        guisp=NONE guifg=#7068B1 guibg=NONE ctermfg=13 ctermbg=233 gui=bold cterm=bold
-hi Float          guisp=NONE guifg=#7068B1 guibg=None ctermfg=13  ctermbg=235 gui=bold cterm=bold
+hi Float          guisp=NONE guifg=#7068B1 guibg=#18232D ctermfg=13  ctermbg=235 gui=bold cterm=bold
 hi Function       guisp=NONE guifg=#3F848D guibg=NONE ctermfg=15 ctermbg=233 gui=bold cterm=bold
 hi Conditional    guisp=NONE guifg=#C38591 guibg=NONE ctermfg=22  ctermbg=233 gui=italic cterm=italic
 hi Repeat         guisp=NONE guifg=#5998C0 guibg=NONE ctermfg=22  ctermbg=233 gui=italic cterm=italic
 " used for indent
 hi Label          guisp=NONE guifg=#5998C0 guibg=NONE ctermfg=22  ctermbg=233 gui=bold cterm=bold
 hi Operator       guisp=NONE guifg=#C88DA2 guibg=NONE ctermfg=55 ctermbg=233 gui=bold cterm=bold
-hi Keyword        guisp=NONE guifg=#C38591 guibg=None ctermfg=28  ctermbg=233 gui=bold,italic cterm=bold,italic
+hi Keyword        guisp=NONE guifg=#C38591 guibg=#18232D ctermfg=28  ctermbg=233 gui=bold,italic cterm=bold,italic
 hi Exception      guisp=NONE guifg=#C4EDA0 guibg=NONE ctermfg=14 ctermbg=233 gui=NONE cterm=NONE
 hi Include        guisp=NONE guifg=#97B392 guibg=NONE ctermfg=22  ctermbg=233 gui=NONE cterm=NONE
 hi Define         guisp=NONE guifg=#ADC079 guibg=NONE ctermfg=2 ctermbg=233 gui=NONE cterm=NONE
@@ -175,7 +175,7 @@ hi TSVariable           guisp=NONE guifg=#D3B692 guibg=NONE ctermfg=10 ctermbg=N
 hi TSVariableBuiltin    guisp=NONE guifg=#9DB19C guibg=NONE ctermfg=10 ctermbg=NONE gui=bold,italic cterm=bold,italic
 hi TSRepeat             guisp=NONE guifg=#5998C0 guibg=NONE ctermfg=6 ctermbg=233 gui=italic cterm=italic
 hi TSConstant           guisp=NONE guifg=#B0904F guibg=NONE ctermfg=3 ctermbg=233 gui=NONE cterm=NONE
-hi TSConstMacro         guisp=NONE guifg=#B0904F guibg=None ctermfg=9 ctermbg=233 gui=NONE cterm=NONE
+hi TSConstMacro         guisp=NONE guifg=#B0904F guibg=#18232D ctermfg=9 ctermbg=233 gui=NONE cterm=NONE
 hi TSFuncMacro          guisp=NONE guifg=#C37455 guibg=NONE ctermfg=9 ctermbg=233 gui=bold,italic cterm=bold,italic
 hi TSConstBuiltin       guisp=NONE guifg=#B0909F guibg=NONE ctermfg=9 ctermbg=233 gui=NONE cterm=NONE
 hi TSConstructor        guisp=NONE guifg=#3F848D guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
