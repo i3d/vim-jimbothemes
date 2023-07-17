@@ -110,8 +110,8 @@ hi Todo       guisp=NONE guifg=#D20B04 guibg=NONE ctermfg=168 ctermbg=234  gui=b
 
 " minor
 
-hi String         guisp=NONE guifg=#D20B04 guibg=NONE ctermfg=101 ctermbg=234 gui=NONE cterm=NONE
-hi Character      guisp=NONE guifg=#D20B04 guibg=NONE ctermfg=231 ctermbg=234 gui=bold cterm=bold
+hi String         guisp=NONE guifg=#505C7C guibg=NONE ctermfg=101 ctermbg=234 gui=NONE cterm=NONE
+hi Character      guisp=NONE guifg=#988829 guibg=NONE ctermfg=231 ctermbg=234 gui=bold cterm=bold
 hi Number         guisp=NONE guifg=#E6EA29 guibg=NONE ctermfg=121 ctermbg=234 gui=bold cterm=bold
 hi Boolean        guisp=NONE guifg=#E6EA29 guibg=NONE ctermfg=149 ctermbg=234 gui=bold cterm=bold
 hi Float          guisp=NONE guifg=#E6EA29 guibg=NONE ctermfg=32  ctermbg=235 gui=bold cterm=bold
