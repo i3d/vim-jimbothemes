@@ -108,7 +108,7 @@ hi TabLineFill      guisp=NONE guifg=#484848 guibg=#0E0E0E ctermfg=NONE ctermbg=
 hi TabLineSel       guisp=NONE guifg=#737373 guibg=#0E0E0E ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Terminal         guisp=NONE guifg=#4B4C4B guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Title            guisp=NONE guifg=#ADFFA7 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi Visual           guisp=NONE guifg=#FAFAFA guibg=#131313 ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
+hi Visual           guisp=NONE guifg=#FAFAFA guibg=#1C1C1C ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
 hi VisualNOS        guisp=NONE guifg=#737373 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WarningMsg       guisp=NONE guifg=#737373 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi WildMenu         guisp=NONE guifg=#737373 guibg=NONE ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -117,7 +117,7 @@ hi WildMenu         guisp=NONE guifg=#737373 guibg=NONE ctermfg=NONE ctermbg=NON
 
 " Error was #949494
 hi Normal     guisp=NONE guifg=#4B4C4B guibg=#0E0E0E ctermfg=NONE ctermbg=NONE gui=NONE   cterm=NONE
-hi Comment    guisp=NONE guifg=#3C3C3C guibg=#111111 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi Comment    guisp=NONE guifg=#3C3C3C guibg=#121212 ctermfg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#644A7F guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
 hi Identifier guisp=NONE guifg=#7F847F guibg=NONE ctermfg=NONE ctermbg=NONE  gui=bold cterm=bold
 hi Statement  guisp=NONE guifg=#3C3C3C guibg=NONE ctermfg=NONE  ctermbg=NONE  gui=NONE   cterm=NONE
@@ -132,7 +132,8 @@ hi Todo       guisp=NONE guifg=#90D762 guibg=NONE ctermfg=NONE ctermbg=NONE  gui
 " minor
 
 "hi String         guisp=NONE guifg=#575757 guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=NONE
-hi String         guisp=NONE guifg=#000000 guibg=#3F3F3F ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
+" hi String        guisp=NONE guifg=#000000 guibg=#3F3F3F ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
+hi String          guisp=NONE guifg=#b178eb guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
 "hi Character      guisp=NONE guifg=#CACACA guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
 "hi Number         guisp=NONE guifg=#FAFAFA guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
 "hi Boolean        guisp=NONE guifg=#FAFAFA guibg=NONE ctermfg=NONE ctermbg=NONE gui=bold cterm=bold
