@@ -130,7 +130,7 @@ hi WildMenu         guisp=NONE guifg=#DEF475 guibg=NONE ctermfg=13 ctermbg=233 g
 "hi Normal     guisp=NONE guifg=#9DB19C guibg=#141820 ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
 "hi Comment    guisp=NONE guifg=#5A6B5A guibg=#1D201D ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
 "hi Normal     guisp=NONE guifg=#9DB19C guibg=#151B22 ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
-hi Normal     guisp=NONE guifg=#9DB19C guibg=#141820 ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
+hi Normal     guisp=NONE guifg=#9DB19C guibg=#171822 ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
 hi Comment    guisp=NONE guifg=#5A6B5A guibg=#192029 ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#513C67 guibg=#C1FF8A ctermfg=55 ctermbg=NONE gui=bold cterm=bold
 hi Identifier guisp=NONE guifg=#BCD053 guibg=NONE ctermfg=22 ctermbg=NONE  gui=bold cterm=bold
