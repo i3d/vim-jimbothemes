@@ -84,8 +84,8 @@ hi FoldColumn       guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 
 hi SignColumn       guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
 hi IncSearch        guisp=NONE guifg=#848484 guibg=#161816 ctermfg=13 ctermbg=232 gui=bold,italic cterm=bold,italic
 hi LineNr           guisp=NONE guifg=#293933 guibg=NONE ctermfg=239 ctermbg=235 gui=bold cterm=bold
-hi LineNrAbove      guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=232 gui=NONE cterm=NONE
-hi LineNrBelow      guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=232 gui=NONE cterm=NONE
+hi LineNrAbove      guisp=NONE guifg=#575757 guibg=NONE ctermfg=231 ctermbg=232 gui=NONE cterm=NONE
+hi LineNrBelow      guisp=NONE guifg=#575757 guibg=NONE ctermfg=231 ctermbg=232 gui=NONE cterm=NONE
 hi CursorLineNr     guisp=NONE guifg=#848484 guibg=NONE ctermfg=10 ctermbg=233 gui=bold,italic cterm=bold,italic
 hi MatchParen       guisp=NONE guifg=#848484 guibg=NONE ctermfg=88 ctermbg=233 gui=bold cterm=bold
 hi ModeMsg          guisp=NONE guifg=#3B403A guibg=NONE ctermfg=231 ctermbg=233 gui=NONE cterm=NONE
@@ -119,7 +119,6 @@ hi WildMenu         guisp=NONE guifg=#848484 guibg=NONE ctermfg=13 ctermbg=233 g
 
 " major
 
-"hi Normal     guisp=NONE guifg=#9DB19C guibg=#171822 ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
 hi Normal     guisp=NONE guifg=#4B4C4B guibg=#12131B ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
 hi Comment    guisp=NONE guifg=#575757 guibg=NONE ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#80B42D guibg=NONE ctermfg=55 ctermbg=NONE gui=bold cterm=bold
@@ -136,25 +135,25 @@ hi Todo       guisp=NONE guifg=#151B22 guibg=#412A4D ctermfg=11 ctermbg=NONE  gu
 
 " minor
 
-hi String         guisp=NONE guifg=#7F847F guibg=NONE ctermfg=2 ctermbg=233 gui=NONE cterm=NONE
+hi String         guisp=NONE guifg=#C2C2C2 guibg=NONE ctermfg=2 ctermbg=233 gui=NONE cterm=NONE
 hi Character      guisp=NONE guifg=#848484 guibg=NONE ctermfg=13 ctermbg=233 gui=bold cterm=bold
-hi Number         guisp=NONE guifg=#151B22 guibg=NONE ctermfg=13 ctermbg=233 gui=bold cterm=bold
+hi Number         guisp=NONE guifg=#151B22 guibg=#848484 ctermfg=13 ctermbg=233 gui=bold cterm=bold
 hi Boolean        guisp=NONE guifg=#80B42D guibg=NONE ctermfg=13 ctermbg=233 gui=bold cterm=bold
 hi Float          guisp=NONE guifg=#151B22 guibg=NONE ctermfg=13  ctermbg=235 gui=bold cterm=bold
 hi Function       guisp=NONE guifg=#848484 guibg=NONE ctermfg=15 ctermbg=233 gui=bold cterm=bold
-hi Conditional    guisp=NONE guifg=#513C67 guibg=NONE ctermfg=22  ctermbg=233 gui=italic cterm=italic
+hi Conditional    guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=22  ctermbg=233 gui=italic cterm=italic
 hi Repeat         guisp=NONE guifg=#513C67 guibg=NONE ctermfg=22  ctermbg=233 gui=italic cterm=italic
 " used for indent
 hi Label          guisp=NONE guifg=#80B42D guibg=NONE ctermfg=22  ctermbg=233 gui=bold cterm=bold
 hi Operator       guisp=NONE guifg=#513C67 guibg=NONE ctermfg=55 ctermbg=233 gui=bold cterm=bold
-hi Keyword        guisp=NONE guifg=#513C67 guibg=NONE ctermfg=28  ctermbg=233 gui=bold,italic cterm=bold,italic
+hi Keyword        guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=28  ctermbg=233 gui=bold,italic cterm=bold,italic
 hi Exception      guisp=NONE guifg=#513C67 guibg=NONE ctermfg=14 ctermbg=233 gui=NONE cterm=NONE
 hi Include        guisp=NONE guifg=#513C67    guibg=NONE ctermfg=22  ctermbg=233 gui=NONE cterm=NONE
 hi Define         guisp=NONE guifg=#513C67 guibg=NONE ctermfg=2 ctermbg=233 gui=NONE cterm=NONE
 hi Macro          guisp=NONE guifg=#513C67 guibg=NONE ctermfg=2  ctermbg=233 gui=bold cterm=bold
 hi PreCondit      guisp=NONE guifg=#513C67 guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
 hi StorageClass   guisp=NONE guifg=#513C67 guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
-hi Structure      guisp=NONE guifg=#80B42D guibg=NONE ctermfg=22  ctermbg=233 gui=bold cterm=bold
+hi Structure      guisp=NONE guifg=#848484 guibg=NONE ctermfg=22  ctermbg=233 gui=bold cterm=bold
 hi Typedef        guisp=NONE guifg=#80B42D guibg=NONE ctermfg=118 ctermbg=233 gui=NONE cterm=NONE
 hi SpecialChar    guisp=NONE guifg=#151B22 guibg=#9DB19C ctermfg=235 ctermbg=233 gui=NONE cterm=NONE
 hi Tag            guisp=NONE guifg=#151B22 guibg=#9DB19C ctermfg=118 ctermbg=233 gui=NONE cterm=NONE
@@ -181,7 +180,7 @@ hi TSField              guisp=NONE guifg=#575757 guibg=NONE ctermfg=22 ctermbg=2
 hi TSAttribute          guisp=NONE guifg=#575757 guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
 hi TSProperty           guisp=NONE guifg=#575757 guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
 hi TSFuncBuiltin        guisp=NONE guifg=#848484 guibg=NONE ctermfg=9 ctermbg=233 gui=bold,italic cterm=bold,italic
-hi TSKeywordReturn      guisp=NONE guifg=#848484 guibg=NONE ctermfg=14 ctermbg=233 gui=bold,italic cterm=bold,italic
+hi TSKeywordReturn      guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=14 ctermbg=233 gui=bold,italic cterm=bold,italic
 hi TSKeywordOperator    guisp=NONE guifg=#513C67 guibg=NONE ctermfg=118 ctermbg=233 gui=NONE cterm=NONE
 hi TSKeywordFunction    guisp=NONE guifg=#848484 guibg=NONE ctermfg=118 ctermbg=233 gui=bold,italic cterm=bold,italic
 " TSMethod 36DA9B
