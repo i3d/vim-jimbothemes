@@ -122,20 +122,20 @@ hi WildMenu         guisp=NONE guifg=#848484 guibg=NONE ctermfg=13 ctermbg=233 g
 hi Normal     guisp=NONE guifg=#5F5F5F guibg=#12131B ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
 hi Comment    guisp=NONE guifg=#575757 guibg=NONE ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#80B42D guibg=NONE ctermfg=55 ctermbg=NONE gui=bold cterm=bold
-hi Identifier guisp=NONE guifg=#5F5F5F guibg=NONE ctermfg=22 ctermbg=NONE  gui=bold cterm=bold
+hi Identifier guisp=NONE guifg=#727272 guibg=NONE ctermfg=22 ctermbg=NONE  gui=bold cterm=bold
 hi Statement  guisp=NONE guifg=#595959 guibg=NONE ctermfg=22  ctermbg=NONE  gui=NONE   cterm=NONE
 hi PreProc    guisp=NONE guifg=#4C584C guibg=NONE ctermfg=4 ctermbg=NONE  gui=bold cterm=bold
 hi Type       guisp=NONE guifg=#848484 guibg=NONE ctermfg=2 ctermbg=NONE  gui=bold cterm=bold
 hi Special    guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=22 ctermbg=NONE  gui=bold cterm=bold
 hi Underlined guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=9  ctermbg=NONE  gui=NONE   cterm=NONE
 hi Ignore     guisp=NONE guifg=#3B403A guibg=NONE ctermfg=10 ctermbg=NONE  gui=NONE   cterm=NONE
-hi Error      guisp=NONE guifg=#412A4D guibg=#151B22 ctermfg=14 ctermbg=NONE  gui=NONE   cterm=NONE
+hi Error      guisp=NONE guifg=#37104C guibg=#151B22 ctermfg=14 ctermbg=NONE  gui=NONE   cterm=NONE
 " wilder also used Todo for popup.
-hi Todo       guisp=NONE guifg=#151B22 guibg=#412A4D ctermfg=11 ctermbg=NONE  gui=bold cterm=bold
+hi Todo       guisp=NONE guifg=#727272 guibg=#1F1027 ctermfg=11 ctermbg=NONE  gui=bold cterm=bold
 
 " minor
 
-hi String         guisp=NONE guifg=#C2C2C2 guibg=NONE ctermfg=2 ctermbg=233 gui=NONE cterm=NONE
+hi String         guisp=NONE guifg=#8C8C8C guibg=NONE ctermfg=2 ctermbg=233 gui=NONE cterm=NONE
 hi Character      guisp=NONE guifg=#848484 guibg=NONE ctermfg=13 ctermbg=233 gui=bold cterm=bold
 hi Number         guisp=NONE guifg=#151B22 guibg=#848484 ctermfg=13 ctermbg=233 gui=bold cterm=bold
 hi Boolean        guisp=NONE guifg=#80B42D guibg=NONE ctermfg=13 ctermbg=233 gui=bold cterm=bold
@@ -162,45 +162,43 @@ hi SpecialComment guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=235 ctermbg=233 gu
 hi Debug          guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=118 ctermbg=233 gui=NONE cterm=NONE
 
 " Treesitter groups
-" see https://github.com/nvim-treesitter/nvim-treesitter/blob/master/lua/nvim-treesitter/highlight.lua
-" for highligh groups
-hi TSAnnotation         guisp=NONE guifg=#4C5249 guibg=NONE    ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
-hi TSNode               guisp=NONE guifg=#595959 guibg=NONE ctermfg=15 ctermbg=235  gui=NONE   cterm=NONE
-hi TSTypeBuiltin        guisp=NONE guifg=#595959 guibg=NONE ctermfg=9 ctermbg=233  gui=bold cterm=bold
-" #[] as well.
-hi TSVariable           guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=10 ctermbg=NONE gui=bold,italic cterm=bold,italic
-hi TSVariableBuiltin    guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=10 ctermbg=NONE gui=bold,italic cterm=bold,italic
-hi TSRepeat             guisp=NONE guifg=#595959 guibg=NONE ctermfg=6 ctermbg=233 gui=italic cterm=italic
-hi TSConstant           guisp=NONE guifg=#595959 guibg=NONE ctermfg=3 ctermbg=233 gui=NONE cterm=NONE
-hi TSConstMacro         guisp=NONE guifg=#595959 guibg=NONE ctermfg=9 ctermbg=233 gui=NONE cterm=NONE
-hi TSFuncMacro          guisp=NONE guifg=#595959 guibg=NONE ctermfg=9 ctermbg=233 gui=bold,italic cterm=bold,italic
-hi TSConstBuiltin       guisp=NONE guifg=#595959 guibg=NONE ctermfg=9 ctermbg=233 gui=NONE cterm=NONE
-hi TSConstructor        guisp=NONE guifg=#595959 guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
-hi TSField              guisp=NONE guifg=#595959 guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
-hi TSAttribute          guisp=NONE guifg=#595959 guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
-hi TSProperty           guisp=NONE guifg=#595959 guibg=NONE ctermfg=22 ctermbg=233 gui=NONE cterm=NONE
-hi TSFuncBuiltin        guisp=NONE guifg=#848484 guibg=NONE ctermfg=9 ctermbg=233 gui=bold,italic cterm=bold,italic
-hi TSKeywordReturn      guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=14 ctermbg=233 gui=bold,italic cterm=bold,italic
-hi TSKeywordOperator    guisp=NONE guifg=#513C67 guibg=NONE ctermfg=118 ctermbg=233 gui=NONE cterm=NONE
-hi TSKeywordFunction    guisp=NONE guifg=#848484 guibg=NONE ctermfg=118 ctermbg=233 gui=bold,italic cterm=bold,italic
-hi TSMethod             guisp=NONE guifg=#848484 guibg=NONE ctermfg=15 ctermbg=233 gui=NONE cterm=NONE
-hi TSNamespace          guisp=NONE guifg=#80B42D guibg=NONE ctermfg=9 ctermbg=233 gui=NONE cterm=NONE
-hi TSNone               guisp=NONE guifg=#80B42D guibg=NONE ctermfg=3 ctermbg=233 gui=NONE cterm=NONE
-hi TSParameter          guisp=NONE guifg=#595959 guibg=NONE ctermfg=100 ctermbg=233 gui=NONE cterm=NONE
-hi TSParameterReference guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=85 ctermbg=233 gui=NONE cterm=NONE
-hi TSPunctDelimiter     guisp=NONE guifg=#513C67 guibg=NONE ctermfg=95 ctermbg=233 gui=NONE cterm=NONE
-hi TSPunctBracket       guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=94 ctermbg=233 gui=NONE cterm=NONE
-hi TSPunctSpecial       guisp=NONE guifg=#513C67 guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
-hi TSStringRegex        guisp=NONE guifg=#513C67 guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
-hi TSStringEscape       guisp=NONE guifg=#513C67 guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
-hi TSStringSpecial      guisp=NONE guifg=#513C67 guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
-hi TSSymbol             guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
-hi TSText               guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=64 ctermbg=233 gui=NONE cterm=NONE
-hi TSTextStrong         guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=10 ctermbg=233 gui=NONE cterm=NONE
-hi TSTextEmphasis       guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=10 ctermbg=233 gui=NONE cterm=NONE
-hi TSUnderline          guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=84  ctermbg=233  gui=NONE   cterm=NONE
-hi TSStrike             guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=84  ctermbg=233  gui=NONE   cterm=NONE
-hi TSTitle              guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=94 ctermbg=233 gui=NONE cterm=NONE
-hi TSLiteral            guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=94 ctermbg=233 gui=NONE cterm=NONE
-hi TSURI                guisp=NONE guifg=#412A4D guibg=NONE ctermfg=75 ctermbg=233 gui=NONE cterm=NONE
-hi TSMath               guisp=NONE guifg=#513C67 guibg=NONE ctermfg=55 ctermbg=233 gui=NONE cterm=NONE
+lua << EOF
+  vim.api.nvim_set_hl(0, "@annotation", { link = "Label" })
+  vim.api.nvim_set_hl(0, "@type", { link = "Type" })
+  vim.api.nvim_set_hl(0, "@type.builtin", { link = "String" })
+  vim.api.nvim_set_hl(0, "@type.defintion", { link = "String" })
+  vim.api.nvim_set_hl(0, "@class", { link = "Type" })
+  vim.api.nvim_set_hl(0, "@class.builtin", { link = "String" })
+  vim.api.nvim_set_hl(0, "@variable", { link = "Identifier" })
+  vim.api.nvim_set_hl(0, "@variable.member", { link = "Structure" })
+  vim.api.nvim_set_hl(0, "@variable.builtin", { link = "Identifier" })
+  vim.api.nvim_set_hl(0, "@parameter", { link = "Identifier" })
+  vim.api.nvim_set_hl(0, "@todo", { link = "Todo" })
+  vim.api.nvim_set_hl(0, "@keyword", { link = "Keyword" })
+  vim.api.nvim_set_hl(0, "@keyword.function", { link = "Keyword" })
+  vim.api.nvim_set_hl(0, "@keyword.operator", { link = "Delimiter" })
+  vim.api.nvim_set_hl(0, "@keyword.return", { link = "Keyword" })
+  vim.api.nvim_set_hl(0, "@function", { link = "Function" })
+  vim.api.nvim_set_hl(0, "@function.call", { link = "Function" })
+  vim.api.nvim_set_hl(0, "@function.builtin", { link = "String" })
+  vim.api.nvim_set_hl(0, "@function.macro", { link = "String" })
+  vim.api.nvim_set_hl(0, "@string", { link = "String" })
+  vim.api.nvim_set_hl(0, "@string.escape", { link = "Character" })
+  vim.api.nvim_set_hl(0, "@number", { link = "Number" })
+  vim.api.nvim_set_hl(0, "@number.float", { link = "Float" })
+  vim.api.nvim_set_hl(0, "@boolean", { link = "Boolean" })
+  vim.api.nvim_set_hl(0, "@character", { link = "Character" })
+  vim.api.nvim_set_hl(0, "@comment", { link = "Comment" })
+  vim.api.nvim_set_hl(0, "@punctuation.delimiter", { link = "Delimiter" })
+  vim.api.nvim_set_hl(0, "@punctuation.bracket", { link = "Delimiter" })
+  vim.api.nvim_set_hl(0, "@operator", { link = "Operator" })
+  vim.api.nvim_set_hl(0, "@exception", { link = "Error" })
+  vim.api.nvim_set_hl(0, "@constant", { link = "Constant" })
+  vim.api.nvim_set_hl(0, "@constant.builtin", { link = "Keyword" })
+  vim.api.nvim_set_hl(0, "@field", { link = "Structure" })
+  vim.api.nvim_set_hl(0, "@tag", { link = "Error" })
+  vim.api.nvim_set_hl(0, "@namespace", { link = "Constant" })
+  vim.api.nvim_set_hl(0, "@property", { link = "Structure" })
+  vim.api.nvim_set_hl(0, "TODOBgNOTE", { link = "Todo" })  -- from todo-comments.
+  vim.api.nvim_set_hl(0, "TodoFgNOTE", { link = "Todo" }) -- from todo-comment.
+EOF
