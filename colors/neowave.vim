@@ -200,5 +200,7 @@ lua << EOF
   vim.api.nvim_set_hl(0, "@namespace", { link = "Constant" })
   vim.api.nvim_set_hl(0, "@property", { link = "Structure" })
   vim.api.nvim_set_hl(0, "TODOBgNOTE", { link = "Todo" })  -- from todo-comments.
+  vim.api.nvim_set_hl(0, "TODOBgTODO", { link = "Todo" })  -- from todo-comments.
   vim.api.nvim_set_hl(0, "TodoFgNOTE", { link = "Todo" }) -- from todo-comment.
+  vim.api.nvim_set_hl(0, "TodoFgTODO", { link = "Todo" }) -- from todo-comment.
 EOF
