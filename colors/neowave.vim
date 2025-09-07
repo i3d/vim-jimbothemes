@@ -119,7 +119,7 @@ hi WildMenu         guisp=NONE guifg=#848484 guibg=NONE ctermfg=13 ctermbg=233 g
 
 " major
 
-hi Normal     guisp=NONE guifg=#5F5F5F guibg=#12131B ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
+hi Normal     guisp=NONE guifg=#5F5F5F guibg=#15161a ctermfg=15 ctermbg=233 gui=NONE   cterm=NONE
 hi Comment    guisp=NONE guifg=#575757 guibg=NONE ctermfg=4 ctermbg=NONE gui=NONE cterm=NONE
 hi Constant   guisp=NONE guifg=#80B42D guibg=NONE ctermfg=55 ctermbg=NONE gui=bold cterm=bold
 hi Identifier guisp=NONE guifg=#727272 guibg=NONE ctermfg=22 ctermbg=NONE  gui=bold cterm=bold
@@ -137,7 +137,7 @@ hi Todo       guisp=NONE guifg=#727272 guibg=#1F1027 ctermfg=11 ctermbg=NONE  gu
 
 hi String         guisp=NONE guifg=#8C8C8C guibg=NONE ctermfg=2 ctermbg=233 gui=NONE cterm=NONE
 hi Character      guisp=NONE guifg=#848484 guibg=NONE ctermfg=13 ctermbg=233 gui=bold cterm=bold
-hi Number         guisp=NONE guifg=#151B22 guibg=#848484 ctermfg=13 ctermbg=233 gui=bold cterm=bold
+hi Number         guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=13 ctermbg=233 gui=bold cterm=bold
 hi Boolean        guisp=NONE guifg=#80B42D guibg=NONE ctermfg=13 ctermbg=233 gui=bold cterm=bold
 hi Float          guisp=NONE guifg=#151B22 guibg=NONE ctermfg=13  ctermbg=235 gui=bold cterm=bold
 hi Function       guisp=NONE guifg=#848484 guibg=NONE ctermfg=15 ctermbg=233 gui=bold cterm=bold
