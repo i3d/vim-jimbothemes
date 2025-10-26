@@ -161,7 +161,8 @@ hi Delimiter      guisp=NONE guifg=#412A4D guibg=NONE ctermfg=94 ctermbg=233 gui
 hi SpecialComment guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=235 ctermbg=233 gui=NONE cterm=NONE
 hi Debug          guisp=NONE guifg=#B4A000 guibg=NONE ctermfg=118 ctermbg=233 gui=NONE cterm=NONE
 
-" Treesitter groups
+if (has('nvim') || has('lua'))
+  " Treesitter groups
 lua << EOF
   vim.api.nvim_set_hl(0, "@annotation", { link = "Label" })
   vim.api.nvim_set_hl(0, "@type", { link = "Type" })
@@ -204,3 +205,4 @@ lua << EOF
   vim.api.nvim_set_hl(0, "TodoFgNOTE", { link = "Todo" }) -- from todo-comment.
   vim.api.nvim_set_hl(0, "TodoFgTODO", { link = "Todo" }) -- from todo-comment.
 EOF
+endif
